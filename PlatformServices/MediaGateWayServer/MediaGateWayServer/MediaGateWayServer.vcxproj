@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{21AF8B45-9569-4424-AF26-3935B7FB3362}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TranslatorServer</RootNamespace>
+    <ProjectName>MediaGateWayServer</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <UseOfAtl>Static</UseOfAtl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfAtl>Static</UseOfAtl>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\common;.\Protocol;..\TyShare;..\..\StandaryLibrary\poco-1.4.6p2\Net\include;..\..\StandaryLibrary\poco-1.4.6p2\Foundation\include;..\..\StandaryLibrary\ServerLibrary\include;..\..\StandaryLibrary\UtilityLibrary\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\lib;..\..\StandaryLibrary\poco-1.4.6p2\lib;..\..\StandaryLibrary\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\common;.\Protocol;..\TyShare;..\..\StandaryLibrary\poco-1.4.6p2\Net\include;..\..\StandaryLibrary\poco-1.4.6p2\Foundation\include;..\..\StandaryLibrary\ServerLibrary\include;..\..\StandaryLibrary\UtilityLibrary\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ExceptionHandling>Sync</ExceptionHandling>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>..\lib;..\..\StandaryLibrary\poco-1.4.6p2\lib;..\..\StandaryLibrary\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\StandaryLibrary\UtilityLibrary\include\define.h" />
+    <ClInclude Include="..\common\Config.h" />
+    <ClInclude Include="..\common\Decoder.h" />
+    <ClInclude Include="..\common\LogInfo.h" />
+    <ClInclude Include="..\common\VirtualDevice.h" />
+    <ClInclude Include="CmdServerModule.h" />
+    <ClInclude Include="AlarmController.h" />
+    <ClInclude Include="AlarmDetectController.h" />
+    <ClInclude Include="AlarmErrorController.h" />
+    <ClInclude Include="AlarmInController.h" />
+    <ClInclude Include="Protocol\CMD10006AbiPostReqSerialize.h" />
+    <ClInclude Include="Protocol\CmdHead.h" />
+    <ClInclude Include="Protocol\Megaeyes2ReqSerialize.h" />
+    <ClInclude Include="Protocol\Megaeyes4002ReqSerialize.h" />
+    <ClInclude Include="Protocol\Megaeyes4003ResSerialize.h" />
+    <ClInclude Include="Protocol\CMD10015HistoryResSerialize.h" />
+    <ClInclude Include="Protocol\CMD10009RealResSerialize.h" />
+    <ClInclude Include="RegisterManager.h" />
+    <ClInclude Include="AlarmServer.h" />
+    <ClInclude Include="DispatchServer\DistributionManager.h" />
+    <ClInclude Include="DispatchServer\DistributionTask.h" />
+    <ClInclude Include="DispatchServer\MemoryPool.h" />
+    <ClInclude Include="HeartBeatManager.h" />
+    <ClInclude Include="Protocol\MegaeyesPtzProtocol.h" />
+    <ClInclude Include="MediaGateWayServer.h" />
+    <ClInclude Include="ServerTask.h" />
+    <ClInclude Include="Protocol\HttpProtocol.h" />
+    <ClInclude Include="Protocol\Megaeyes5214ReqSerialize.h" />
+    <ClInclude Include="Protocol\MegaeyesAlarmOut.h" />
+    <ClInclude Include="Protocol\MegaeyesErrorNotify.h" />
+    <ClInclude Include="Protocol\MegaeyesException.h" />
+    <ClInclude Include="Protocol\Megaeyes40000ReqSerialize.h" />
+    <ClInclude Include="Protocol\MegaeyesProtocol.h" />
+    <ClInclude Include="Protocol\MegaeyesProtocolType.h" />
+    <ClInclude Include="Protocol\CMD10014HistoryReqSerialize.h" />
+    <ClInclude Include="Protocol\CMD10008RealReqSerialize.h" />
+    <ClInclude Include="Protocol\CMD10004RegReqSerialize.h" />
+    <ClInclude Include="Protocol\Megaeyes2003ResSerialize.h" />
+    <ClInclude Include="Protocol\MegaeyesVideoParaProtocol.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="VDeviceConfig.h" />
+    <ClInclude Include="VDeviceManager.h" />
+    <ClInclude Include="VDeviceRecordTask.h" />
+    <ClInclude Include="VDeviceServer.h" />
+    <ClInclude Include="VirtualDevice.h" />
+    <ClInclude Include="VPScanConfigFile.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\StandaryLibrary\UtilityLibrary\src\LogSys.cpp" />
+    <ClCompile Include="..\..\StandaryLibrary\UtilityLibrary\src\Markup.cpp" />
+    <ClCompile Include="..\..\StandaryLibrary\UtilityLibrary\src\NetUtility.cpp" />
+    <ClCompile Include="..\..\StandaryLibrary\UtilityLibrary\src\QueueChannel.cpp" />
+    <ClCompile Include="..\..\StandaryLibrary\UtilityLibrary\src\StrUtility.cpp" />
+    <ClCompile Include="..\common\LogInfo.cpp" />
+    <ClCompile Include="CmdServerModule.cpp" />
+    <ClCompile Include="AlarmController.cpp" />
+    <ClCompile Include="AlarmDetectController.cpp" />
+    <ClCompile Include="AlarmErrorController.cpp" />
+    <ClCompile Include="AlarmInController.cpp" />
+    <ClCompile Include="Protocol\CmdHead.cpp" />
+    <ClCompile Include="RegisterManager.cpp" />
+    <ClCompile Include="AlarmServer.cpp" />
+    <ClCompile Include="DispatchServer\DistributionManager.cpp" />
+    <ClCompile Include="DispatchServer\DistributionTask.cpp" />
+    <ClCompile Include="DispatchServer\MemoryPool.cpp" />
+    <ClCompile Include="HeartBeatManager.cpp" />
+    <ClCompile Include="MediaGateWayServer.cpp" />
+    <ClCompile Include="ServerTask.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="VDeviceManager.cpp" />
+    <ClCompile Include="VDeviceRecordTask.cpp" />
+    <ClCompile Include="VDeviceServer.cpp" />
+    <ClCompile Include="VPScanConfigFile.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

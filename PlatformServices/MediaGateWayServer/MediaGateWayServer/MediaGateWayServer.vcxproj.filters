@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="protocol">
+      <UniqueIdentifier>{b9d6f002-ca18-4b77-9a6d-3120fc62dc78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AlarmModule">
+      <UniqueIdentifier>{265a27d5-ac74-44c4-b1d7-7ed9433c8609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerModule">
+      <UniqueIdentifier>{75494a9a-57ea-4b80-8074-7df7e5d3eb9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VirtualDevice">
+      <UniqueIdentifier>{5c56cd5a-edfb-48c6-995e-272828bc2b19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CmdServerModule">
+      <UniqueIdentifier>{a642b82d-3ec4-4ea1-9ed2-9ff37920175a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DistribModule">
+      <UniqueIdentifier>{943b051e-cab7-4f3e-a0a7-0df82ca1333c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{9f00c29f-d4f9-4b8c-8624-fdddefb4000d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\MegaeyesException.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\MegaeyesProtocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\MegaeyesProtocolType.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="AlarmServer.h">
+      <Filter>AlarmModule</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\MegaeyesErrorNotify.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\MegaeyesVideoParaProtocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\MegaeyesAlarmOut.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\HttpProtocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\MegaeyesPtzProtocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="DispatchServer\DistributionManager.h">
+      <Filter>DistribModule</Filter>
+    </ClInclude>
+    <ClInclude Include="DispatchServer\DistributionTask.h">
+      <Filter>DistribModule</Filter>
+    </ClInclude>
+    <ClInclude Include="DispatchServer\MemoryPool.h">
+      <Filter>DistribModule</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\Megaeyes40000ReqSerialize.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\Megaeyes2003ResSerialize.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\Megaeyes2ReqSerialize.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerTask.h">
+      <Filter>ServerModule</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\CmdHead.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\StandaryLibrary\UtilityLibrary\include\define.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AlarmController.h">
+      <Filter>AlarmModule</Filter>
+    </ClInclude>
+    <ClInclude Include="AlarmErrorController.h">
+      <Filter>AlarmModule</Filter>
+    </ClInclude>
+    <ClInclude Include="AlarmDetectController.h">
+      <Filter>AlarmModule</Filter>
+    </ClInclude>
+    <ClInclude Include="AlarmInController.h">
+      <Filter>AlarmModule</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\Megaeyes5214ReqSerialize.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\Megaeyes4002ReqSerialize.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\Megaeyes4003ResSerialize.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="VPScanConfigFile.h">
+      <Filter>VirtualDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdServerModule.h">
+      <Filter>CmdServerModule</Filter>
+    </ClInclude>
+    <ClInclude Include="RegisterManager.h">
+      <Filter>CmdServerModule</Filter>
+    </ClInclude>
+    <ClInclude Include="HeartBeatManager.h">
+      <Filter>CmdServerModule</Filter>
+    </ClInclude>
+    <ClInclude Include="VDeviceConfig.h">
+      <Filter>VirtualDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="VDeviceManager.h">
+      <Filter>VirtualDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="VDeviceRecordTask.h">
+      <Filter>VirtualDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="VDeviceServer.h">
+      <Filter>VirtualDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="MediaGateWayServer.h">
+      <Filter>ServerModule</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\Config.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\Decoder.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\LogInfo.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\VirtualDevice.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\CMD10004RegReqSerialize.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\CMD10006AbiPostReqSerialize.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualDevice.h">
+      <Filter>VirtualDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\CMD10008RealReqSerialize.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\CMD10009RealResSerialize.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\CMD10014HistoryReqSerialize.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\CMD10015HistoryResSerialize.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AlarmServer.cpp">
+      <Filter>AlarmModule</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\StandaryLibrary\UtilityLibrary\src\NetUtility.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DispatchServer\DistributionManager.cpp">
+      <Filter>DistribModule</Filter>
+    </ClCompile>
+    <ClCompile Include="DispatchServer\DistributionTask.cpp">
+      <Filter>DistribModule</Filter>
+    </ClCompile>
+    <ClCompile Include="DispatchServer\MemoryPool.cpp">
+      <Filter>DistribModule</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\StandaryLibrary\UtilityLibrary\src\Markup.cpp">
+      <Filter>protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\LogInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\StandaryLibrary\UtilityLibrary\src\LogSys.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerTask.cpp">
+      <Filter>ServerModule</Filter>
+    </ClCompile>
+    <ClCompile Include="AlarmController.cpp">
+      <Filter>AlarmModule</Filter>
+    </ClCompile>
+    <ClCompile Include="AlarmErrorController.cpp">
+      <Filter>AlarmModule</Filter>
+    </ClCompile>
+    <ClCompile Include="AlarmDetectController.cpp">
+      <Filter>AlarmModule</Filter>
+    </ClCompile>
+    <ClCompile Include="AlarmInController.cpp">
+      <Filter>AlarmModule</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\StandaryLibrary\UtilityLibrary\src\QueueChannel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VPScanConfigFile.cpp">
+      <Filter>VirtualDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdServerModule.cpp">
+      <Filter>CmdServerModule</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterManager.cpp">
+      <Filter>CmdServerModule</Filter>
+    </ClCompile>
+    <ClCompile Include="HeartBeatManager.cpp">
+      <Filter>CmdServerModule</Filter>
+    </ClCompile>
+    <ClCompile Include="VDeviceManager.cpp">
+      <Filter>VirtualDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="VDeviceRecordTask.cpp">
+      <Filter>VirtualDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="VDeviceServer.cpp">
+      <Filter>VirtualDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="MediaGateWayServer.cpp">
+      <Filter>ServerModule</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\StandaryLibrary\UtilityLibrary\src\StrUtility.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol\CmdHead.cpp">
+      <Filter>protocol</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

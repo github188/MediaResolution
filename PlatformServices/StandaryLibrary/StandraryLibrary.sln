@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ServerLibrary", "ServerLibrary\ServerLibrary.vcxproj", "{4B166E65-6D8C-4CE3-BB22-9D7B3E584B38}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UtilityLibrary", "UtilityLibrary\UtilityLibrary.vcxproj", "{19D7BDA6-D805-4351-BCCA-EB83FF67B3C0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ServerLibraryTestSuit", "ServerLibraryTestSuit\ServerLibraryTestSuit.vcxproj", "{2794CF0D-B0EE-4D54-ABB1-E9277D638BEA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DistributionLibrary", "DistributionLibrary\DistributionLibrary.vcxproj", "{34A34DFF-CCFC-422D-9374-218F63F823E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B166E65-6D8C-4CE3-BB22-9D7B3E584B38}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4B166E65-6D8C-4CE3-BB22-9D7B3E584B38}.Debug|Win32.Build.0 = Debug|Win32
+		{4B166E65-6D8C-4CE3-BB22-9D7B3E584B38}.Release|Win32.ActiveCfg = Release|Win32
+		{4B166E65-6D8C-4CE3-BB22-9D7B3E584B38}.Release|Win32.Build.0 = Release|Win32
+		{19D7BDA6-D805-4351-BCCA-EB83FF67B3C0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{19D7BDA6-D805-4351-BCCA-EB83FF67B3C0}.Debug|Win32.Build.0 = Debug|Win32
+		{19D7BDA6-D805-4351-BCCA-EB83FF67B3C0}.Release|Win32.ActiveCfg = Release|Win32
+		{19D7BDA6-D805-4351-BCCA-EB83FF67B3C0}.Release|Win32.Build.0 = Release|Win32
+		{2794CF0D-B0EE-4D54-ABB1-E9277D638BEA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2794CF0D-B0EE-4D54-ABB1-E9277D638BEA}.Debug|Win32.Build.0 = Debug|Win32
+		{2794CF0D-B0EE-4D54-ABB1-E9277D638BEA}.Release|Win32.ActiveCfg = Release|Win32
+		{2794CF0D-B0EE-4D54-ABB1-E9277D638BEA}.Release|Win32.Build.0 = Release|Win32
+		{34A34DFF-CCFC-422D-9374-218F63F823E1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{34A34DFF-CCFC-422D-9374-218F63F823E1}.Debug|Win32.Build.0 = Debug|Win32
+		{34A34DFF-CCFC-422D-9374-218F63F823E1}.Release|Win32.ActiveCfg = Release|Win32
+		{34A34DFF-CCFC-422D-9374-218F63F823E1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

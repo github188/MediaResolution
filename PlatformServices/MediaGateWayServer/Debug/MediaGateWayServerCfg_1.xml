@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Config ID="11111111111111111111" AccessIP="25.30.9.191" SDKSurport="25" StartPort="5000" RebootTime="09:30" RebootCycle="1" SupportParam="1" SupportAlarm="1">
+  <Center IP="127.0.0.1" Port="8080" Uri = "/videoServer/deviceControl/deviceInit.do"/>
+  <DeviceModule>
+    <Module Name = "HaiKangDVR" Protocol = "HIKMP4.2.5" Path ="VirtualDevice\HaiKangDVR\VDeviceHKDVR.dll"/>
+    <Module Name = "DaHuaDVR" Protocol = "DAHUA_MP4_V1.0" Path ="VirtualDevice\DaHuaDVR\VDeviceDHDVR.dll"/>
+    <Module Name = "HaiKangNVR" Protocol = "HIKMP4.2.5.0" Path ="VirtualDevice\HaiKangNVR\VDeviceHKNVR.dll"/>
+  </DeviceModule>
+</Config>
