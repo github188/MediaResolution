@@ -131,7 +131,7 @@ void VDeviceServer::NotifyStreamData(long lChannel, long lStreamType, long lFram
 	{
 		CmdHead hi;
 		hi.length = dwSize;
-		hi.cmdnum = CMD_DEVRECORDSTREAM_RESP;
+		hi.cmdnum = CMD_DEVREALSTREAM_RESP;
 		hi.success = 0; 
 		memcpy(distr_mgr->memory_pool_.extradata_,&hi,sizeof(CmdHead));
 		memcpy(distr_mgr->memory_pool_.extradata_+sizeof(CmdHead),pBuffer,dwSize);

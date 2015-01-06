@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ServerLoader", "ServerLoader\ServerLoader.vcxproj", "{4724004B-2F21-4AE1-A45A-23689C837005}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MediaGateWayServer", "MediaGateWayServer\MediaGateWayServer.vcxproj", "{21AF8B45-9569-4424-AF26-3935B7FB3362}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VDeviceHKDVR", "VDeviceHKDVR\VDeviceHKDVR.vcxproj", "{A03FF141-D069-4405-B957-1554F9BC6B73}"
@@ -23,22 +21,6 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4724004B-2F21-4AE1-A45A-23689C837005}.debug_shared|Win32.ActiveCfg = Debug|Win32
-		{4724004B-2F21-4AE1-A45A-23689C837005}.debug_shared|Win32.Build.0 = Debug|Win32
-		{4724004B-2F21-4AE1-A45A-23689C837005}.debug_static_md|Win32.ActiveCfg = Debug|Win32
-		{4724004B-2F21-4AE1-A45A-23689C837005}.debug_static_md|Win32.Build.0 = Debug|Win32
-		{4724004B-2F21-4AE1-A45A-23689C837005}.debug_static_mt|Win32.ActiveCfg = Debug|Win32
-		{4724004B-2F21-4AE1-A45A-23689C837005}.debug_static_mt|Win32.Build.0 = Debug|Win32
-		{4724004B-2F21-4AE1-A45A-23689C837005}.Debug|Win32.ActiveCfg = Debug|Win32
-		{4724004B-2F21-4AE1-A45A-23689C837005}.Debug|Win32.Build.0 = Debug|Win32
-		{4724004B-2F21-4AE1-A45A-23689C837005}.release_shared|Win32.ActiveCfg = Release|Win32
-		{4724004B-2F21-4AE1-A45A-23689C837005}.release_shared|Win32.Build.0 = Release|Win32
-		{4724004B-2F21-4AE1-A45A-23689C837005}.release_static_md|Win32.ActiveCfg = Release|Win32
-		{4724004B-2F21-4AE1-A45A-23689C837005}.release_static_md|Win32.Build.0 = Release|Win32
-		{4724004B-2F21-4AE1-A45A-23689C837005}.release_static_mt|Win32.ActiveCfg = Release|Win32
-		{4724004B-2F21-4AE1-A45A-23689C837005}.release_static_mt|Win32.Build.0 = Release|Win32
-		{4724004B-2F21-4AE1-A45A-23689C837005}.Release|Win32.ActiveCfg = Release|Win32
-		{4724004B-2F21-4AE1-A45A-23689C837005}.Release|Win32.Build.0 = Release|Win32
 		{21AF8B45-9569-4424-AF26-3935B7FB3362}.debug_shared|Win32.ActiveCfg = Debug|Win32
 		{21AF8B45-9569-4424-AF26-3935B7FB3362}.debug_shared|Win32.Build.0 = Debug|Win32
 		{21AF8B45-9569-4424-AF26-3935B7FB3362}.debug_static_md|Win32.ActiveCfg = Debug|Win32
