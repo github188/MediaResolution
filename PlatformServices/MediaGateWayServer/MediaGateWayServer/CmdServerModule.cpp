@@ -246,41 +246,17 @@ void CmdServerModule::Notify(vector<VDeviceConfig> &deviceCFGCopy)
 
 }
 
-void CmdServerModule::NotifyFromHeartCtrl(vector<VDeviceConfig> &deviceCFGCopy)
+void CmdServerModule::Copy(vector<VDeviceConfig> &deviceCFGCopy)
 {
-	for (int i=0;i<(int)deviceCFGCopy.size();i++)
-	{  
-
-		map<string,VDeviceConfig>::iterator pos;
-		_mutex.lock();
-		pos = _deviceConfigs.find(deviceCFGCopy[i].m_sDeviceId);
-
-		if(pos != _deviceConfigs.end()) 
-		{
-			VDeviceConfig& vplatform_config = pos->second;
-
-			vplatform_config.status = VDeviceConfig::False;
-			LogSys& transLog = LogSys::getLogSys(LogInfo::Instance().MediaGateWayServer());
-			transLog.log(Message::PRIO_INFORMATION, "device %s offline......", vplatform_config.m_sDeviceId);
-		}
-		_mutex.unlock();
-	}
-
 	_mutex.lock();
 	map<string, VDeviceConfig> deviceConfigs_Copy = _deviceConfigs;
 	_mutex.unlock();
 
-	heart_manager_->_deviceConfigsCopy.clear();
-
 	map<string,VDeviceConfig>::iterator iter;
-	for (iter = deviceConfigs_Copy.begin();iter != deviceConfigs_Copy.end(); iter++) 
+	for (iter = deviceConfigs_Copy.begin(); iter != deviceConfigs_Copy.end(); iter++) 
 	{   
-		if(iter->second.status == VDeviceConfig::Success) //成功后加入心跳；
-		{
-			heart_manager_->_deviceConfigsCopy.push_back(iter->second);
-		}
+		deviceCFGCopy.push_back(iter->second);
 	}
-
 }
 
 void CmdServerModule::SetDeviceConfigStatus(string device_id)

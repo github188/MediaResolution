@@ -77,9 +77,6 @@
     <ClInclude Include="DispatchServer\MemoryPool.h">
       <Filter>DistribModule</Filter>
     </ClInclude>
-    <ClInclude Include="Protocol\Megaeyes40000ReqSerialize.h">
-      <Filter>protocol</Filter>
-    </ClInclude>
     <ClInclude Include="Protocol\Megaeyes2003ResSerialize.h">
       <Filter>protocol</Filter>
     </ClInclude>
@@ -174,6 +171,9 @@
       <Filter>protocol</Filter>
     </ClInclude>
     <ClInclude Include="Protocol\CMD10015HistoryResSerialize.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\CMD10002HeartReqSerialize.h">
       <Filter>protocol</Filter>
     </ClInclude>
   </ItemGroup>

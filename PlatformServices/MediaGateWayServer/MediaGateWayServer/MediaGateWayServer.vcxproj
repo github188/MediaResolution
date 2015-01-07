@@ -114,7 +114,7 @@
     <ClInclude Include="Protocol\MegaeyesAlarmOut.h" />
     <ClInclude Include="Protocol\MegaeyesErrorNotify.h" />
     <ClInclude Include="Protocol\MegaeyesException.h" />
-    <ClInclude Include="Protocol\Megaeyes40000ReqSerialize.h" />
+    <ClInclude Include="Protocol\CMD10002HeartReqSerialize.h" />
     <ClInclude Include="Protocol\MegaeyesProtocol.h" />
     <ClInclude Include="Protocol\MegaeyesProtocolType.h" />
     <ClInclude Include="Protocol\CMD10014HistoryReqSerialize.h" />

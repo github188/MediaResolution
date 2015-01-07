@@ -27,10 +27,10 @@ protected:
 	Poco::FastMutex m_HeartMutex;
 	
 public:
-	vector<VDeviceConfig> _deviceConfigsCopy;
-    
     void run();
     bool CheckDeviceOnline(VDeviceConfig &vplatformCFG);
+
+	void OnHeartBeatResponse(const CmdHead& head, char* res_xml);
 
 private:
 	Poco::Thread workthread;

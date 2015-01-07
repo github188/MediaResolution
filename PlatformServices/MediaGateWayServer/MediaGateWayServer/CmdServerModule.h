@@ -25,6 +25,30 @@ protected:
 	CmdResponseCallback() {}
 };
 
+template<class Callbacker>
+class CmdResponseCallbacker : public CmdResponseCallback
+{
+public:
+	typedef void (Callbacker::*OnCmdResponse)(const CmdHead& res_head, char* res_xml);
+
+	CmdResponseCallbacker(Callbacker* caller, OnCmdResponse OnCall) : 
+	caller_(caller), OnCall_(OnCall)
+	{
+	}
+
+	void OnResponse(const CmdHead& res_head, char* res_xml)
+	{
+		if (caller_)
+		{
+			(caller_->*OnCall_)(res_head, res_xml);
+		}
+	}
+
+private:
+	Callbacker* caller_;
+	OnCmdResponse OnCall_;
+};
+
 template<class Callbacker, class P>
 class CmdResponseProcessor : public CmdResponseCallback
 {
@@ -76,7 +100,7 @@ private:
 public:
     map<string,VDeviceConfig> _deviceConfigs;
     void Notify(vector<VDeviceConfig> &deviceCFGCopy);
-	void NotifyFromHeartCtrl(vector<VDeviceConfig> &deviceCFGCopy);
+	void Copy(vector<VDeviceConfig> &deviceCFGCopy);
 
 	void SetDeviceConfigStatus(string device_id);
 
