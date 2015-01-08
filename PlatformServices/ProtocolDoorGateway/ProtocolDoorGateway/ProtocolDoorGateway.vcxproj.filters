@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="AccessEvent.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="AccessModule.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Const.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Handler.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LogInfo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgDispatcher.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Term.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="TermLogin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="TermAbilityReport.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="TermHeart.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="UserRealTimeRequest.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="UserHistoryRequest.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="UserLogin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="UserHeart.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LogInfo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="AccessEvent.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="AccessModule.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Handler.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgDispatcher.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Term.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="TermLogin.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="TermAbilityReport.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="TermHeart.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="UserRealTimeRequest.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="UserHistoryRequest.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="UserLogin.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="UserHeart.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\StandaryLibrary\UtilityLibrary\src\LogSys.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\StandaryLibrary\UtilityLibrary\src\Markup.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\StandaryLibrary\UtilityLibrary\src\NetUtility.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\StandaryLibrary\UtilityLibrary\src\QueueChannel.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\StandaryLibrary\UtilityLibrary\src\StrUtility.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{27a10498-03f4-4706-a313-562036fe1691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{1e9a8370-53bb-49d3-800f-46ccf6526773}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="NewAccessServer" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/NewAccessServer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../StandaryLibrary/UtilityLibrary/include" />
+					<Add directory="../StandaryLibrary/ServerLibrary/include" />
+				</Compiler>
+				<Linker>
+					<Add library="PocoFoundationd" />
+					<Add library="PocoNetd" />
+					<Add library="ServerLibraryd" />
+					<Add directory="../StandaryLibrary/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/NewAccessServer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="PocoFoundation" />
+					<Add library="PocoNet" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="AccessEvent.cpp" />
+		<Unit filename="AccessEvent.h" />
+		<Unit filename="AccessModule.cpp" />
+		<Unit filename="AccessModule.h" />
+		<Unit filename="AlarmTask.cpp" />
+		<Unit filename="AlarmTask.h" />
+		<Unit filename="BussinessEvent.h" />
+		<Unit filename="BussinessServer.h" />
+		<Unit filename="ConfigItem.cpp" />
+		<Unit filename="ConfigItem.h" />
+		<Unit filename="Const.h" />
+		<Unit filename="Device.h" />
+		<Unit filename="Handler.cpp" />
+		<Unit filename="Handler.h" />
+		<Unit filename="HdlConsole.cpp" />
+		<Unit filename="HdlConsole.h" />
+		<Unit filename="HdlStore.cpp" />
+		<Unit filename="HdlStore.h" />
+		<Unit filename="HdlTerminal.cpp" />
+		<Unit filename="HdlTerminal.h" />
+		<Unit filename="LocalVar.cpp" />
+		<Unit filename="LocalVar.h" />
+		<Unit filename="LogInfo.cpp" />
+		<Unit filename="LogInfo.h" />
+		<Unit filename="MsgDispatcher.cpp" />
+		<Unit filename="MsgDispatcher.h" />
+		<Unit filename="Msghead.h" />
+		<Unit filename="SmartPtr_T.h" />
+		<Unit filename="Store.cpp" />
+		<Unit filename="Store.h" />
+		<Unit filename="Terminal.cpp" />
+		<Unit filename="Terminal.h" />
+		<Unit filename="TyMain.cpp" />
+		<Unit filename="Usersession.cpp" />
+		<Unit filename="Usersession.h" />
+		<Unit filename="define.h" />
+		<Unit filename="../StandaryLibrary/UtilityLibrary/src/LogSys.cpp" />
+		<Unit filename="../StandaryLibrary/UtilityLibrary/src/Markup.cpp" />
+		<Unit filename="../StandaryLibrary/UtilityLibrary/src/NetUtility.cpp" />
+		<Unit filename="../StandaryLibrary/UtilityLibrary/src/QueueChannel.cpp" />
+		<Unit filename="../StandaryLibrary/UtilityLibrary/src/StrUtility.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

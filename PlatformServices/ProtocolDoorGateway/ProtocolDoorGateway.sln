@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProtocolDoorGateway", "ProtocolDoorGateway\ProtocolDoorGateway.vcxproj", "{D86F508B-3A70-4B0C-8129-0B8A30ADBC60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D86F508B-3A70-4B0C-8129-0B8A30ADBC60}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D86F508B-3A70-4B0C-8129-0B8A30ADBC60}.Debug|Win32.Build.0 = Debug|Win32
+		{D86F508B-3A70-4B0C-8129-0B8A30ADBC60}.Release|Win32.ActiveCfg = Release|Win32
+		{D86F508B-3A70-4B0C-8129-0B8A30ADBC60}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,4917 @@
+# depslib dependency file v1.0
+1369787166 source:/mnt/hgfs/NewAccessServer/TyBase/AsDebugLog.cpp
+	"AsDebugLog.h"
+	<fstream>
+	<time.h>
+	"../TyBase/TyLog.h"
+
+1368406894 /mnt/hgfs/NewAccessServer/TyBase/AsDebugLog.h
+	"Debug.h"
+	<sstream>
+
+1370681362 /mnt/hgfs/NewAccessServer/TyBase/Debug.h
+	<Windows.h>
+	<pthread.h>
+	<stdio.h>
+	<deque>
+	<stdarg.h>
+	<string>
+
+1378427942 /mnt/hgfs/NewAccessServer/TyBase/TyLog.h
+	"Poco/Thread.h"
+	"Poco/Mutex.h"
+	"Poco/Logger.h"
+	"Poco/LogStream.h"
+	"Poco/Runnable.h"
+	<list>
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/Thread.h
+	"Poco/Foundation.h"
+	"Poco/Mutex.h"
+	"Poco/Thread_WINCE.h"
+	"Poco/Thread_WIN32.h"
+	"Poco/Thread_VX.h"
+	"Poco/Thread_POSIX.h"
+
+1365565867 /root/poco-1.4.6p1/Foundation/include/Poco/Foundation.h
+	"Poco/Config.h"
+	"Poco/Platform.h"
+	"Poco/Platform_WIN32.h"
+	"Poco/Platform_VMS.h"
+	"Poco/Platform_VX.h"
+	"Poco/Platform_POSIX.h"
+	"Poco/Bugcheck.h"
+	"Poco/Types.h"
+	<string>
+
+1365565866 /root/poco-1.4.6p1/Foundation/include/Poco/Config.h
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/Platform.h
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/Platform_WIN32.h
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/Platform_VMS.h
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/Platform_VX.h
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/Platform_POSIX.h
+
+1365565866 /root/poco-1.4.6p1/Foundation/include/Poco/Bugcheck.h
+	"Poco/Foundation.h"
+	<string>
+	<iostream>
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/Types.h
+	"Poco/Foundation.h"
+
+1365565867 /root/poco-1.4.6p1/Foundation/include/Poco/Mutex.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/ScopedLock.h"
+	"Poco/Mutex_WINCE.h"
+	"Poco/Mutex_WIN32.h"
+	"Poco/Mutex_VX.h"
+	"Poco/Mutex_POSIX.h"
+
+1365565867 /root/poco-1.4.6p1/Foundation/include/Poco/Exception.h
+	"Poco/Foundation.h"
+	<stdexcept>
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/ScopedLock.h
+	"Poco/Foundation.h"
+
+1365565867 /root/poco-1.4.6p1/Foundation/include/Poco/Mutex_WINCE.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/UnWindows.h"
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/UnWindows.h
+	<windows.h>
+
+1365565867 /root/poco-1.4.6p1/Foundation/include/Poco/Mutex_WIN32.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/UnWindows.h"
+
+1365565867 /root/poco-1.4.6p1/Foundation/include/Poco/Mutex_VX.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	<semLib.h>
+	<errno.h>
+
+1365565867 /root/poco-1.4.6p1/Foundation/include/Poco/Mutex_POSIX.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	<pthread.h>
+	<errno.h>
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/Thread_WINCE.h
+	"Poco/Foundation.h"
+	"Poco/Runnable.h"
+	"Poco/UnWindows.h"
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/Runnable.h
+	"Poco/Foundation.h"
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/Thread_WIN32.h
+	"Poco/Foundation.h"
+	"Poco/Runnable.h"
+	"Poco/UnWindows.h"
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/Thread_VX.h
+	"Poco/Foundation.h"
+	"Poco/Runnable.h"
+	"Poco/SignalHandler.h"
+	"Poco/Event.h"
+	"Poco/RefCountedObject.h"
+	"Poco/AutoPtr.h"
+	<taskLib.h>
+	<taskVarLib.h>
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/SignalHandler.h
+	"Poco/Foundation.h"
+	<vector>
+	<setjmp.h>
+
+1365565867 /root/poco-1.4.6p1/Foundation/include/Poco/Event.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/Event_WIN32.h"
+	"Poco/Event_VX.h"
+	"Poco/Event_POSIX.h"
+
+1365565867 /root/poco-1.4.6p1/Foundation/include/Poco/Event_WIN32.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/UnWindows.h"
+
+1365565867 /root/poco-1.4.6p1/Foundation/include/Poco/Event_VX.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	<semLib.h>
+
+1365565867 /root/poco-1.4.6p1/Foundation/include/Poco/Event_POSIX.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	<pthread.h>
+	<errno.h>
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/RefCountedObject.h
+	"Poco/Foundation.h"
+	"Poco/AtomicCounter.h"
+
+1365565866 /root/poco-1.4.6p1/Foundation/include/Poco/AtomicCounter.h
+	"Poco/Foundation.h"
+	"Poco/UnWindows.h"
+	<libkern/OSAtomic.h>
+	"Poco/Mutex.h"
+
+1365565866 /root/poco-1.4.6p1/Foundation/include/Poco/AutoPtr.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	<algorithm>
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/Thread_POSIX.h
+	"Poco/Foundation.h"
+	"Poco/Runnable.h"
+	"Poco/SignalHandler.h"
+	"Poco/Event.h"
+	"Poco/RefCountedObject.h"
+	"Poco/AutoPtr.h"
+	<pthread.h>
+	<limits.h>
+	<sys/select.h>
+	<errno.h>
+	<cstring>
+
+1365565867 /root/poco-1.4.6p1/Foundation/include/Poco/Logger.h
+	"Poco/Foundation.h"
+	"Poco/Channel.h"
+	"Poco/Message.h"
+	"Poco/Format.h"
+	<map>
+	<vector>
+	<cstddef>
+
+1365565866 /root/poco-1.4.6p1/Foundation/include/Poco/Channel.h
+	"Poco/Foundation.h"
+	"Poco/Configurable.h"
+	"Poco/Mutex.h"
+	"Poco/RefCountedObject.h"
+
+1365565866 /root/poco-1.4.6p1/Foundation/include/Poco/Configurable.h
+	"Poco/Foundation.h"
+
+1365565867 /root/poco-1.4.6p1/Foundation/include/Poco/Message.h
+	"Poco/Foundation.h"
+	"Poco/Timestamp.h"
+	<map>
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/Timestamp.h
+	"Poco/Foundation.h"
+	<ctime>
+
+1365565867 /root/poco-1.4.6p1/Foundation/include/Poco/Format.h
+	"Poco/Foundation.h"
+	"Poco/Any.h"
+	<vector>
+
+1365565866 /root/poco-1.4.6p1/Foundation/include/Poco/Any.h
+	"Poco/Exception.h"
+	<algorithm>
+	<typeinfo>
+
+1365565867 /root/poco-1.4.6p1/Foundation/include/Poco/LogStream.h
+	"Poco/Foundation.h"
+	"Poco/Logger.h"
+	"Poco/UnbufferedStreamBuf.h"
+	<istream>
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/UnbufferedStreamBuf.h
+	"Poco/Foundation.h"
+	"Poco/StreamUtil.h"
+	<streambuf>
+	<iosfwd>
+	<ios>
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/StreamUtil.h
+	"Poco/Foundation.h"
+
+1368406894 source:/mnt/hgfs/NewAccessServer/TyBase/AsXmlHelper.cpp
+	"AsXmlHelper.h"
+	"tinyxml.h"
+	<sstream>
+
+1368406894 /mnt/hgfs/NewAccessServer/TyBase/AsXmlHelper.h
+	<string>
+	<map>
+	"XmlHelper.h"
+	"IAsXmlHelper.h"
+
+1368406896 /mnt/hgfs/NewAccessServer/TyBase/XmlHelper.h
+	"tinyxml.h"
+	<string>
+
+1368406896 /mnt/hgfs/NewAccessServer/TyBase/tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1368406896 /mnt/hgfs/NewAccessServer/TyBase/tinystr.h
+	<assert.h>
+	<string.h>
+
+1368406896 /mnt/hgfs/NewAccessServer/TyBase/IAsXmlHelper.h
+	<string>
+
+1377855241 source:/mnt/hgfs/NewAccessServer/TyBase/Client.cpp
+	"Client.h"
+	"../TyCommon/Error.h"
+	"../TyShare/Msghead.h"
+	"../TyCommon/Typedef.h"
+	<WinSock2.h>
+	<errno.h>
+	<netdb.h>
+	<netinet/in.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<fcntl.h>
+	<sys/time.h>
+	<unistd.h>
+	<stdio.h>
+	<time.h>
+	<string.h>
+
+1379385013 /mnt/hgfs/NewAccessServer/TyBase/Client.h
+	"../TyCommon/Typedef.h"
+	<time.h>
+	"Common.h"
+
+1367824080 /mnt/hgfs/NewAccessServer/TyCommon/Typedef.h
+
+1379832978 /mnt/hgfs/NewAccessServer/TyShare/Const.h
+	"Queue.h"
+	"Msghead.h"
+	"Poco/ThreadPool.h"
+	"../TyBase/MemPool.h"
+	"../TyBase/TyLog.h"
+
+1379832978 /mnt/hgfs/NewAccessServer/TyShare/Queue.h
+	<list>
+	"Poco/Mutex.h"
+	"Poco/Event.h"
+	"Poco/ScopedLock.h"
+
+1378256144 /mnt/hgfs/NewAccessServer/TyShare/Msghead.h
+	<string>
+	"../TyCommon/Const.h"
+
+1379384577 /mnt/hgfs/NewAccessServer/TyCommon/Const.h
+	"Message.h"
+	<stdio.h>
+	<sys/uio.h>
+
+1379381178 /mnt/hgfs/NewAccessServer/TyCommon/Message.h
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/ThreadPool.h
+	"Poco/Foundation.h"
+	"Poco/Thread.h"
+	"Poco/Mutex.h"
+	<vector>
+
+1368406896 /mnt/hgfs/NewAccessServer/TyBase/MemPool.h
+	<stdlib.h>
+
+1373937986 /mnt/hgfs/NewAccessServer/TyCommon/define.h
+	<time.h>
+	<stdio.h>
+	<sys/uio.h>
+
+1368431362 /mnt/hgfs/NewAccessServer/TyBase/Common.h
+	<stdio.h>
+	"Global.h"
+	<sstream>
+	<string>
+	"../TyCommon/Error.h"
+	<WinSock2.h>
+
+1379385520 /mnt/hgfs/NewAccessServer/TyBase/Global.h
+	<time.h>
+	"MemPool.h"
+	"Table.h"
+	"ConfigNew.h"
+	"map"
+	"time.h"
+	"set"
+	<sys/time.h>
+
+1379380921 /mnt/hgfs/NewAccessServer/TyBase/Table.h
+	"../TyCommon/Const.h"
+	"../TyShare/Msghead.h"
+	<string.h>
+	<time.h>
+	"Client.h"
+	<queue>
+	<vector>
+	<list>
+	<string>
+	"Terminal.h"
+	"Store.h"
+
+1379384980 /mnt/hgfs/NewAccessServer/TyBase/Terminal.h
+	<time.h>
+	<list>
+	<set>
+	<deque>
+	<string>
+	<Poco/HashMap.h>
+	<Poco/Mutex.h>
+	"SmartPtr_T.h"
+	"../TyShare/Msghandler.h"
+	"../TyCommon/Const.h"
+
+1365565867 /root/poco-1.4.6p1/Foundation/include/Poco/HashMap.h
+	"Poco/Foundation.h"
+	"Poco/LinearHashTable.h"
+	"Poco/Exception.h"
+	<utility>
+
+1365565867 /root/poco-1.4.6p1/Foundation/include/Poco/LinearHashTable.h
+	"Poco/Foundation.h"
+	"Poco/Hash.h"
+	<functional>
+	<algorithm>
+	<vector>
+	<utility>
+	<cstddef>
+
+1365565867 /root/poco-1.4.6p1/Foundation/include/Poco/Hash.h
+	"Poco/Foundation.h"
+	<cstddef>
+
+1371517802 /mnt/hgfs/NewAccessServer/TyBase/SmartPtr_T.h
+	<assert.h>
+	<Poco/Mutex.h>
+
+1381195765 /mnt/hgfs/NewAccessServer/TyShare/Msghandler.h
+	"Poco/Net/SocketReactor.h"
+	"Poco/Net/SocketAddress.h"
+	"Poco/Net/SocketAcceptor.h"
+	"Poco/Net/SocketConnector.h"
+	"Poco/Net/StreamSocket.h"
+	"Poco/Net/SocketNotification.h"
+	"Poco/Net/NetException.h"
+	"Poco/Observer.h"
+	"Poco/RefCountedObject.h"
+	"Msghead.h"
+	"Queue.h"
+	"../TyCommon/Const.h"
+	"../TyMsgServer/MsgDispatcher.h"
+	"../TyCommon/Const.h"
+	"../TyShare/Const.h"
+
+1365565874 /root/poco-1.4.6p1/Net/include/Poco/Net/SocketReactor.h
+	"Poco/Net/Net.h"
+	"Poco/Net/Socket.h"
+	"Poco/Runnable.h"
+	"Poco/Timespan.h"
+	"Poco/Observer.h"
+	"Poco/AutoPtr.h"
+	<map>
+
+1365565874 /root/poco-1.4.6p1/Net/include/Poco/Net/Net.h
+	"Poco/Foundation.h"
+
+1365565874 /root/poco-1.4.6p1/Net/include/Poco/Net/Socket.h
+	"Poco/Net/Net.h"
+	"Poco/Net/SocketImpl.h"
+	<vector>
+
+1365565874 /root/poco-1.4.6p1/Net/include/Poco/Net/SocketImpl.h
+	"Poco/Net/Net.h"
+	"Poco/Net/SocketDefs.h"
+	"Poco/Net/SocketAddress.h"
+	"Poco/RefCountedObject.h"
+	"Poco/Timespan.h"
+
+1365565874 /root/poco-1.4.6p1/Net/include/Poco/Net/SocketDefs.h
+	"Poco/UnWindows.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+	<hostLib.h>
+	<ifLib.h>
+	<inetLib.h>
+	<ioLib.h>
+	<resolvLib.h>
+	<types.h>
+	<socket.h>
+	<netinet/tcp.h>
+	<unistd.h>
+	<errno.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/select.h>
+	<sys/ioctl.h>
+	<inet.h>
+	<arpa/inet.h>
+	<netinet/in.h>
+	<netinet/tcp.h>
+	<netdb.h>
+	<net/if.h>
+	<sys/sockio.h>
+	<sys/filio.h>
+
+1365565874 /root/poco-1.4.6p1/Net/include/Poco/Net/SocketAddress.h
+	"Poco/Net/Net.h"
+	"Poco/Net/SocketDefs.h"
+	"Poco/Net/IPAddress.h"
+
+1365565874 /root/poco-1.4.6p1/Net/include/Poco/Net/IPAddress.h
+	"Poco/Net/Net.h"
+	"Poco/Net/SocketDefs.h"
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/Timespan.h
+	"Poco/Foundation.h"
+	"Poco/Timestamp.h"
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/Observer.h
+	"Poco/Foundation.h"
+	"Poco/AbstractObserver.h"
+	"Poco/Mutex.h"
+
+1365565866 /root/poco-1.4.6p1/Foundation/include/Poco/AbstractObserver.h
+	"Poco/Foundation.h"
+	"Poco/Notification.h"
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/Notification.h
+	"Poco/Foundation.h"
+	"Poco/Mutex.h"
+	"Poco/RefCountedObject.h"
+	"Poco/AutoPtr.h"
+
+1365565874 /root/poco-1.4.6p1/Net/include/Poco/Net/SocketAcceptor.h
+	"Poco/Net/Net.h"
+	"Poco/Net/SocketNotification.h"
+	"Poco/Net/ServerSocket.h"
+	"Poco/Net/StreamSocket.h"
+	"Poco/Observer.h"
+
+1365565874 /root/poco-1.4.6p1/Net/include/Poco/Net/SocketNotification.h
+	"Poco/Net/Net.h"
+	"Poco/Net/Socket.h"
+	"Poco/Notification.h"
+
+1365565874 /root/poco-1.4.6p1/Net/include/Poco/Net/ServerSocket.h
+	"Poco/Net/Net.h"
+	"Poco/Net/Socket.h"
+	"Poco/Net/StreamSocket.h"
+
+1365565874 /root/poco-1.4.6p1/Net/include/Poco/Net/StreamSocket.h
+	"Poco/Net/Net.h"
+	"Poco/Net/Socket.h"
+
+1365565874 /root/poco-1.4.6p1/Net/include/Poco/Net/SocketConnector.h
+	"Poco/Net/Net.h"
+	"Poco/Net/SocketNotification.h"
+	"Poco/Net/SocketAddress.h"
+	"Poco/Net/StreamSocket.h"
+	"Poco/Observer.h"
+
+1365565874 /root/poco-1.4.6p1/Net/include/Poco/Net/NetException.h
+	"Poco/Net/Net.h"
+	"Poco/Exception.h"
+
+1379384980 /mnt/hgfs/NewAccessServer/TyMsgServer/MsgDispatcher.h
+	"../TyShare/Msghandler.h"
+	"../TyCommon/Const.h"
+	"../TyCommon/SysTime.h"
+	"../TyBase/Markup.h"
+
+1368756328 /mnt/hgfs/NewAccessServer/TyCommon/FastString.h
+	"Const.h"
+	<string.h>
+	"../TyBase/MemPool.h"
+	<assert.h>
+
+1368423748 /mnt/hgfs/NewAccessServer/TyCommon/SysTime.h
+	<time.h>
+	<string>
+
+1379313752 /mnt/hgfs/NewAccessServer/TyBase/Markup.h
+	<string>
+	<string.h>
+
+1379384980 /mnt/hgfs/NewAccessServer/TyBase/Store.h
+	<time.h>
+	<list>
+	"../TyBase/Nat.h"
+	"../TyCommon/Const.h"
+	"MemPool.h"
+	<Poco/HashMap.h>
+	"../TyBase/SmartPtr_T.h"
+	"Poco/Mutex.h"
+
+1368602014 /mnt/hgfs/NewAccessServer/TyBase/Nat.h
+	"../TyCommon/Const.h"
+	<vector>
+	<string>
+	"ConfigNew.h"
+
+1368586738 /mnt/hgfs/NewAccessServer/TyBase/ConfigNew.h
+	<string>
+	<vector>
+	<map>
+	<list>
+	<time.h>
+	"Poco/Mutex.h"
+	"Poco/Timer.h"
+	"Poco/ScopedLock.h"
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/Timer.h
+	"Poco/Foundation.h"
+	"Poco/Runnable.h"
+	"Poco/Mutex.h"
+	"Poco/Event.h"
+	"Poco/Thread.h"
+	"Poco/Timestamp.h"
+
+1368406896 /mnt/hgfs/NewAccessServer/TyBase/StatusInfo.h
+	<string>
+
+1368601666 /mnt/hgfs/NewAccessServer/TyCommon/Error.h
+
+1376624277 source:/mnt/hgfs/NewAccessServer/TyBase/Common.cpp
+	"Common.h"
+	<stdio.h>
+	"IpGroupConfig.h"
+	"AsDebugLog.h"
+
+1368406896 /mnt/hgfs/NewAccessServer/TyBase/IpGroupConfig.h
+	<string>
+	<list>
+	<vector>
+
+1369786874 source:/mnt/hgfs/NewAccessServer/TyBase/ConfigNew.cpp
+	"ConfigNew.h"
+	"Markup.h"
+	"Common.h"
+	<string.h>
+	<stdlib.h>
+
+1368406896 source:/mnt/hgfs/NewAccessServer/TyBase/Debug.cpp
+	"Debug.h"
+	"ConfigNew.h"
+	<time.h>
+	<string.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<unistd.h>
+
+1369786874 source:/mnt/hgfs/NewAccessServer/TyBase/Dispatch.cpp
+	"ConfigNew.h"
+	"Dispatch.h"
+	"Debug.h"
+	"../TyCommon/Message.h"
+	"Markup.h"
+	"../TyCommon/Error.h"
+	<syslog.h>
+	<vector>
+	"Global.h"
+
+1371515880 /mnt/hgfs/NewAccessServer/TyBase/Dispatch.h
+	"MemPool.h"
+	"Nat.h"
+	"Client.h"
+	<time.h>
+	<Poco/HashMap.h>
+
+1379385520 source:/mnt/hgfs/NewAccessServer/TyBase/Global.cpp
+	"Global.h"
+	<assert.h>
+	"../TyCommon/Error.h"
+	"Client.h"
+	<time.h>
+	<sstream>
+	<syslog.h>
+
+1376623653 source:/mnt/hgfs/NewAccessServer/TyBase/Httpagent.cpp
+	<stdio.h>
+	<string>
+	"Httpagent.h"
+	"ConfigNew.h"
+	"../TyCommon/Error.h"
+	"../TyCommon/Message.h"
+	"Common.h"
+	"Client.h"
+
+1372988296 /mnt/hgfs/NewAccessServer/TyBase/Httpagent.h
+
+1376624233 source:/mnt/hgfs/NewAccessServer/TyBase/IpGroupConfig.cpp
+	"IpGroupConfig.h"
+	"AsXmlHelper.h"
+	<sstream>
+	<iostream>
+
+1368406896 source:/mnt/hgfs/NewAccessServer/TyBase/Markup.cpp
+	<stdio.h>
+	<string.h>
+	<errno.h>
+	"Markup.h"
+
+1336978808 source:/mnt/hgfs/NewAccessServer/TyBase/MarkupSTL.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<errno.h>
+	"MarkupSTL.h"
+
+1367910066 /mnt/hgfs/NewAccessServer/TyBase/MarkupSTL.h
+	<string>
+	<string.h>
+
+1379310169 source:/mnt/hgfs/NewAccessServer/TyBase/Nat.cpp
+	"Nat.h"
+	"Debug.h"
+	<sstream>
+	"Common.h"
+
+1369786874 source:/mnt/hgfs/NewAccessServer/TyBase/NetAdminData.cpp
+	"ConfigNew.h"
+	"NetAdminData.h"
+	"Client.h"
+	"../TyCommon/SysTime.h"
+	"../TyBase/Debug.h"
+	<string.h>
+
+1368601638 /mnt/hgfs/NewAccessServer/TyBase/NetAdminData.h
+	<string>
+	"../TyBase/Markup.h"
+	"Client.h"
+
+1368602154 source:/mnt/hgfs/NewAccessServer/TyBase/Request.cpp
+	<string.h>
+	"Request.h"
+	"../TyCommon/Error.h"
+	"Markup.h"
+	"../TyCommon/Const.h"
+	<string>
+
+1368406896 /mnt/hgfs/NewAccessServer/TyBase/Request.h
+	"../TyCommon/Typedef.h"
+	<vector>
+	<string>
+
+1371516388 source:/mnt/hgfs/NewAccessServer/TyBase/Response.cpp
+	<string.h>
+	"Response.h"
+	"Markup.h"
+	"../TyCommon/Error.h"
+
+1370485926 /mnt/hgfs/NewAccessServer/TyBase/Response.h
+	"../TyCommon/Typedef.h"
+	"../TyCommon/Const.h"
+	"MemPool.h"
+	<vector>
+	<string>
+
+1379315858 source:/mnt/hgfs/NewAccessServer/TyBase/Store.cpp
+	"Store.h"
+	"Client.h"
+	"../TyCommon/Error.h"
+	"debug.h"
+
+1368406896 /mnt/hgfs/NewAccessServer/TyBase/Transmit.h
+	"Global.h"
+	"Client.h"
+	"ConfigNew.h"
+	"Common.h"
+	"Debug.h"
+
+1379381178 source:/mnt/hgfs/NewAccessServer/TyBase/Table.cpp
+	"../TyProxy/Termproxy.h"
+	"../TyProxy/Storeproxy.h"
+	"Debug.h"
+	"Table.h"
+	"../TyCommon/Error.h"
+	<stdio.h>
+	<assert.h>
+	<syslog.h>
+
+1379380833 /mnt/hgfs/NewAccessServer/TyProxy/Termproxy.h
+	"Proxy.h"
+	"../TyBase/Terminal.h"
+	"../TyBase/Global.h"
+	"../TyShare/Msghandler.h"
+	"sstream"
+
+1376624603 /mnt/hgfs/NewAccessServer/TyProxy/Proxy.h
+	"../TyBase/Client.h"
+	"../TyBase/Markup.h"
+	"../TyCommon/Message.h"
+	<iostream>
+	"../TyCommon/Error.h"
+
+1379380921 /mnt/hgfs/NewAccessServer/TyProxy/Storeproxy.h
+	"Proxy.h"
+	"../TyBase/Store.h"
+
+1379377704 source:/mnt/hgfs/NewAccessServer/TyBase/Terminal.cpp
+	"Terminal.h"
+	"Client.h"
+	"../TyCommon/Error.h"
+	"ConfigNew.h"
+	"Global.h"
+	"debug.h"
+	"Global.h"
+	"ConfigNew.h"
+	"Poco/RWLock.h"
+
+1368406896 source:/mnt/hgfs/NewAccessServer/TyBase/TyLog.cpp
+	"TyLog.h"
+	"Poco/AutoPtr.h"
+	"Poco/SplitterChannel.h"
+	"Poco/PatternFormatter.h"
+	"Poco/FileChannel.h"
+	"Poco/ConsoleChannel.h"
+	"Poco/FormattingChannel.h"
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/SplitterChannel.h
+	"Poco/Foundation.h"
+	"Poco/Channel.h"
+	"Poco/Mutex.h"
+	<vector>
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/PatternFormatter.h
+	"Poco/Foundation.h"
+	"Poco/Formatter.h"
+	"Poco/Message.h"
+
+1365565867 /root/poco-1.4.6p1/Foundation/include/Poco/Formatter.h
+	"Poco/Foundation.h"
+	"Poco/Configurable.h"
+	"Poco/RefCountedObject.h"
+
+1365565867 /root/poco-1.4.6p1/Foundation/include/Poco/FileChannel.h
+	"Poco/Foundation.h"
+	"Poco/Channel.h"
+	"Poco/Timestamp.h"
+	"Poco/Mutex.h"
+
+1365565866 /root/poco-1.4.6p1/Foundation/include/Poco/ConsoleChannel.h
+	"Poco/Foundation.h"
+	"Poco/Channel.h"
+	"Poco/Mutex.h"
+	<ostream>
+
+1365565867 /root/poco-1.4.6p1/Foundation/include/Poco/FormattingChannel.h
+	"Poco/Foundation.h"
+	"Poco/Channel.h"
+
+1379309485 source:/mnt/hgfs/NewAccessServer/TyBase/XmlHelper.cpp
+	"XmlHelper.h"
+	<string>
+
+1368406896 source:/mnt/hgfs/NewAccessServer/TyBase/tinystr.cpp
+	"tinystr.h"
+
+1368406896 source:/mnt/hgfs/NewAccessServer/TyBase/tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1368406896 source:/mnt/hgfs/NewAccessServer/TyBase/tinyxmlerror.cpp
+	"tinyxml.h"
+
+1368406896 source:/mnt/hgfs/NewAccessServer/TyBase/tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+
+1368423748 source:/mnt/hgfs/NewAccessServer/TyCommon/SysTime.cpp
+	<stdio.h>
+	"SysTime.h"
+
+1380270727 source:/mnt/hgfs/NewAccessServer/TyMain/TyMain.cpp
+	"../TyMsgServer/AccessServer.h"
+	"../TyBase/ConfigNew.h"
+	"../TyBase/MemPool.h"
+	"../TyProtocol/Heart_Transact_Task.h"
+	"../TyBase/TyLog.h"
+	"../TyBase/Markup.h"
+	"../TyBase/Httpagent.h"
+	"../TyCommon/Error.h"
+	"Poco/ThreadPool.h"
+	"Poco/File.h"
+	"Poco/LocalDateTime.h"
+	"Poco/DateTimeFormatter.h"
+	"Poco/DateTimeFormat.h"
+	"Poco/Environment.h"
+	<io.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<sys/stat.h>
+	<unistd.h>
+
+1371434332 /mnt/hgfs/NewAccessServer/TyMsgServer/AccessServer.h
+	"../TyShare/MsgServer.h"
+	"MegaEyesMsgTask.h"
+	"Poco/SingletonHolder.h"
+
+1380269761 /mnt/hgfs/NewAccessServer/TyShare/MsgServer.h
+	"ReactorServer.h"
+	"Poco/Timer.h"
+	"Poco/Thread.h"
+	"Poco/Runnable.h"
+	"Const.h"
+
+1372059551 /mnt/hgfs/NewAccessServer/TyShare/ReactorServer.h
+	<iostream>
+	"Poco/Net/SocketReactor.h"
+	"Poco/Net/SocketAcceptor.h"
+	"Poco/Net/SocketAddress.h"
+	"Poco/Net/SocketConnector.h"
+	"Poco/Net/StreamSocket.h"
+	"Poco/Net/SocketNotification.h"
+	"Poco/Observer.h"
+	"Msghead.h"
+	"Queue.h"
+	"Msghandler.h"
+	"Poco/ThreadPool.h"
+	"Poco/Timespan.h"
+	"../TyBase/ConfigNew.h"
+
+1368692866 /mnt/hgfs/NewAccessServer/TyMsgServer/MegaEyesMsgTask.h
+	"../TyShare/Queuetask.h"
+
+1370502434 /mnt/hgfs/NewAccessServer/TyShare/Queuetask.h
+	"Poco/Runnable.h"
+	"Msghead.h"
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/SingletonHolder.h
+	"Poco/Foundation.h"
+	"Poco/Mutex.h"
+
+1379309914 /mnt/hgfs/NewAccessServer/TyProtocol/Heart_Transact_Task.h
+	<list>
+	<string>
+	<Poco/HashMap.h>
+	"../TyCommon/Typedef.h"
+	"../TyShare/Msghandler.h"
+	"../TyBase/SmartPtr_T.h"
+	"Poco/Timer.h"
+	"Poco/Thread.h"
+	"Poco/Runnable.h"
+	"Poco/ThreadPool.h"
+	"Poco/RunnableAdapter.h"
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/RunnableAdapter.h
+	"Poco/Foundation.h"
+	"Poco/Runnable.h"
+
+1365565867 /root/poco-1.4.6p1/Foundation/include/Poco/File.h
+	"Poco/Foundation.h"
+	"Poco/Timestamp.h"
+	<vector>
+	"File_WINCE.h"
+	"Poco/File_WIN32U.h"
+	"Poco/File_WIN32.h"
+	"Poco/File_VX.h"
+	"Poco/File_UNIX.h"
+	"Poco/File_VMS.h"
+
+1365565867 /root/poco-1.4.6p1/Foundation/include/Poco/File_WINCE.h
+	"Poco/Foundation.h"
+	"Poco/Timestamp.h"
+
+1365565867 /root/poco-1.4.6p1/Foundation/include/Poco/File_WIN32U.h
+	"Poco/Foundation.h"
+	"Poco/Timestamp.h"
+
+1365565867 /root/poco-1.4.6p1/Foundation/include/Poco/File_WIN32.h
+	"Poco/Foundation.h"
+	"Poco/Timestamp.h"
+
+1365565867 /root/poco-1.4.6p1/Foundation/include/Poco/File_VX.h
+	"Poco/Foundation.h"
+
+1365565867 /root/poco-1.4.6p1/Foundation/include/Poco/File_UNIX.h
+	"Poco/Foundation.h"
+
+1365565867 /root/poco-1.4.6p1/Foundation/include/Poco/File_VMS.h
+	"Poco/Foundation.h"
+
+1365565867 /root/poco-1.4.6p1/Foundation/include/Poco/LocalDateTime.h
+	"Poco/Foundation.h"
+	"Poco/DateTime.h"
+
+1365565867 /root/poco-1.4.6p1/Foundation/include/Poco/DateTime.h
+	"Poco/Foundation.h"
+	"Poco/Timestamp.h"
+	"Poco/Timespan.h"
+
+1365565867 /root/poco-1.4.6p1/Foundation/include/Poco/DateTimeFormatter.h
+	"Poco/Foundation.h"
+	"Poco/DateTime.h"
+	"Poco/LocalDateTime.h"
+
+1365565867 /root/poco-1.4.6p1/Foundation/include/Poco/DateTimeFormat.h
+	"Poco/Foundation.h"
+
+1365565867 /root/poco-1.4.6p1/Foundation/include/Poco/Environment.h
+	"Poco/Foundation.h"
+
+1379382599 source:/mnt/hgfs/NewAccessServer/TyMsgServer/AccessServer.cpp
+	"AccessServer.h"
+
+1377744688 source:/mnt/hgfs/NewAccessServer/TyMsgServer/MegaEyesMsgTask.cpp
+	"MegaEyesMsgTask.h"
+	"Poco/Net/HTTPClientSession.h"
+	"Poco/Net/HTTPRequest.h"
+	"Poco/Net/HTTPResponse.h"
+	"Poco/StreamCopier.h"
+	<sstream>
+	"Poco/Net/StreamSocket.h"
+	"AccessServer.h"
+	"MsgDispatcher.h"
+	"../TyCommon/Const.h"
+	<iostream>
+
+1365565874 /root/poco-1.4.6p1/Net/include/Poco/Net/HTTPClientSession.h
+	"Poco/Net/Net.h"
+	"Poco/Net/HTTPSession.h"
+	"Poco/Net/SocketAddress.h"
+	<istream>
+	<ostream>
+
+1365565874 /root/poco-1.4.6p1/Net/include/Poco/Net/HTTPSession.h
+	"Poco/Net/Net.h"
+	"Poco/Net/StreamSocket.h"
+	"Poco/Timespan.h"
+	"Poco/Exception.h"
+	"Poco/Any.h"
+	<ios>
+
+1365565874 /root/poco-1.4.6p1/Net/include/Poco/Net/HTTPRequest.h
+	"Poco/Net/Net.h"
+	"Poco/Net/HTTPMessage.h"
+
+1365565874 /root/poco-1.4.6p1/Net/include/Poco/Net/HTTPMessage.h
+	"Poco/Net/Net.h"
+	"Poco/Net/MessageHeader.h"
+
+1365565874 /root/poco-1.4.6p1/Net/include/Poco/Net/MessageHeader.h
+	"Poco/Net/Net.h"
+	"Poco/Net/NameValueCollection.h"
+	<ostream>
+	<istream>
+	<vector>
+
+1365565874 /root/poco-1.4.6p1/Net/include/Poco/Net/NameValueCollection.h
+	"Poco/Net/Net.h"
+	"Poco/String.h"
+	<map>
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/String.h
+	"Poco/Foundation.h"
+	"Poco/Ascii.h"
+	<cstring>
+
+1365565866 /root/poco-1.4.6p1/Foundation/include/Poco/Ascii.h
+	"Poco/Foundation.h"
+
+1365565874 /root/poco-1.4.6p1/Net/include/Poco/Net/HTTPResponse.h
+	"Poco/Net/Net.h"
+	"Poco/Net/HTTPMessage.h"
+	"Poco/Net/HTTPCookie.h"
+	"Poco/Timestamp.h"
+	<vector>
+
+1365565874 /root/poco-1.4.6p1/Net/include/Poco/Net/HTTPCookie.h
+	"Poco/Net/Net.h"
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/StreamCopier.h
+	"Poco/Foundation.h"
+	<istream>
+	<ostream>
+	<cstddef>
+
+1379315248 source:/mnt/hgfs/NewAccessServer/TyProtocol/HdlStore.cpp
+	"HdlStore.h"
+	"../TyCommon/SysTime.h"
+	"../TyBase/ConfigNew.h"
+	"../TyBase/Httpagent.h"
+	<time.h>
+	<sys/time.h>
+
+1369201348 /mnt/hgfs/NewAccessServer/TyProtocol/HdlStore.h
+	"../TyMsgServer/MsgDispatcher.h"
+	"../TyBase/Client.h"
+
+1379315248 source:/mnt/hgfs/NewAccessServer/TyProtocol/HdlTerminal.cpp
+	"../TyBase/Global.h"
+	"HdlTerminal.h"
+	"../TyCommon/SysTime.h"
+	<assert.h>
+	<time.h>
+	<sys/time.h>
+	"../TyBase/ConfigNew.h"
+	"../TyBase/Client.h"
+	"../TyBase/Common.h"
+	"../TyBase/Httpagent.h"
+	"../TyProtocol/Heart_Transact_Task.h"
+	"../TyProtocolConversion/MegaeyesConversion.h"
+	"../TyProtocolConversion/ProtocolConversion.h"
+
+1374041562 /mnt/hgfs/NewAccessServer/TyProtocol/HdlTerminal.h
+	"../TyMsgServer/MsgDispatcher.h"
+	"../TyBase/Client.h"
+	"../TyCommon/Typedef.h"
+	<queue>
+	"../TyProtocolConversion/IProtocolConversion.h"
+
+1377136248 /mnt/hgfs/NewAccessServer/TyProtocolConversion/MegaeyesConversion.h
+	"IMegaeyesConversion.h"
+
+1381373936 /mnt/hgfs/NewAccessServer/TyProtocolConversion/IMegaeyesConversion.h
+	"Markup.h"
+	"ConvProto.h"
+
+1381373995 source:/mnt/hgfs/NewAccessServer/TyProtocolConversion/MegaeyesConversion.cpp
+	"MegaeyesConversion.h"
+	"ConvProto.h"
+	"Global.h"
+
+1381373727 /mnt/hgfs/NewAccessServer/TyProtocolConversion/ConvProto.h
+	"Global.h"
+	"Const.h"
+
+1368406896 source:/mnt/hgfs/NewAccessServer/TyProxy/Proxy.cpp
+	"Proxy.h"
+	"../TyBase/Debug.h"
+
+1379380921 source:/mnt/hgfs/NewAccessServer/TyProxy/Storeproxy.cpp
+	"Storeproxy.h"
+	"../TyBase/Markup.h"
+
+1379380833 source:/mnt/hgfs/NewAccessServer/TyProxy/Termproxy.cpp
+	"Termproxy.h"
+	"../TyBase/Markup.h"
+	"../TyBase/Debug.h"
+
+1379832978 source:/mnt/hgfs/NewAccessServer/TyShare/Const.cpp
+	"Const.h"
+
+1379316017 source:/mnt/hgfs/NewAccessServer/TyShare/Msghandler.cpp
+	<iostream>
+	"Msghandler.h"
+	"../TyProtocol/Heart_Transact_Task.h"
+
+1380527460 source:/mnt/hgfs/NewAccessServer/TyShare/Queuetask.cpp
+	"Queuetask.h"
+	"Queue.h"
+	"Msghandler.h"
+	<iostream>
+	"Poco/Thread.h"
+	"../TyBase/TyLog.h"
+	"../TyProtocolConversion/MegaeyesConversion.h"
+	"../TyProtocolConversion/ProtocolConversion.h"
+
+1379313213 source:/mnt/hgfs/NewAccessServer/TyMsgServer/MsgDispatcher.cpp
+	"MsgDispatcher.h"
+	"../TyCommon/Message.h"
+	"../TyProtocol/HdlTerminal.h"
+	"../TyProtocol/HdlConsole.h"
+	"../TyProtocol/HdlStore.h"
+	"../TyBase/Debug.h"
+	"../TyBase/XmlHelper.h"
+
+1379311612 /mnt/hgfs/NewAccessServer/TyProtocol/HdlConsole.h
+	"../TyBase/Client.h"
+	"../TyBase/Terminal.h"
+	<string>
+	<vector>
+	<map>
+
+1380507374 source:/mnt/hgfs/NewAccessServer/TyProtocol/Heart_Transact_Task.cpp
+	"Heart_Transact_Task.h"
+	"../TyCommon/SysTime.h"
+	"../TyBase/ConfigNew.h"
+	"../TyBase/Terminal.h"
+	"../TyBase/Store.h"
+	"../TyCommon/Typedef.h"
+	"../TyBase/Httpagent.h"
+	"../TyBase/Global.h"
+
+1381193425 source:/mnt/hgfs/NewAccessServer/TyProtocol/HdlConsole.cpp
+	<math.h>
+	<stdlib.h>
+	<map>
+	<algorithm>
+	"HdlConsole.h"
+	"../TyBase/Global.h"
+	"../TyCommon/Error.h"
+	"../TyCommon/Typedef.h"
+	"../TyCommon/Const.h"
+	<time.h>
+	"../TyBase/AsDebugLog.h"
+	"../TyBase/Httpagent.h"
+	"../TyProtocolConversion/MegaeyesConversion.h"
+	"../TyProtocolConversion/IProtocolConversion.h"
+	"../TyProtocolConversion/ProtocolConversion.h"
+	<sys/time.h>
+	"../TyBase/ConfigNew.h"
+	"../TyBase/Common.h"
+	"../TyBase/Store.h"
+	"../TyProtocol/Heart_Transact_Task.h"
+
+1375772722 /mnt/hgfs/NewAccessServer/TyProtocolConversion/IProtocolConversion.h
+	"ConvProto.h"
+	<stddef.h>
+	<string>
+
+1375772722 /mnt/hgfs/NewAccessServer/TyProtocolConversion/ProtocolConversion.h
+	"IProtocolConversion.h"
+	"IMegaeyesConversion.h"
+
+1376028733 source:/mnt/hgfs/NewAccessServer/TyProtocolConversion/ProtocolConversion.cpp
+	"ProtocolConversion.h"
+	"MegaeyesConversion.h"
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/RWLock.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/RWLock_WINCE.h"
+	"Poco/RWLock_WIN32.h"
+	"Poco/RWLock_Android.h"
+	"Poco/RWLock_VX.h"
+	"Poco/RWLock_POSIX.h"
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/RWLock_WINCE.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/UnWindows.h"
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/RWLock_WIN32.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/UnWindows.h"
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/RWLock_Android.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	<pthread.h>
+	<errno.h>
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/RWLock_VX.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	<pthread.h>
+	<errno.h>
+
+1365565868 /root/poco-1.4.6p1/Foundation/include/Poco/RWLock_POSIX.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	<pthread.h>
+	<errno.h>
+
+1381547559 source:/mnt/hgfs/NewAccessServer/AccessServer.cpp
+	"AccessServer.h"
+
+1381547649 /mnt/hgfs/NewAccessServer/AccessServer.h
+	"Global.h"
+	"MsgServer.h"
+	"MegaEyesMsgTask.h"
+
+1381546582 /mnt/hgfs/NewAccessServer/Global.h
+	<Poco/HashMap.h>
+	<Poco/Mutex.h>
+	"Poco/ThreadPool.h"
+	"Poco/File.h"
+	"Poco/LocalDateTime.h"
+	"Poco/DateTimeFormatter.h"
+	"Poco/DateTimeFormat.h"
+	"Poco/Environment.h"
+	"Poco/Net/HTTPClientSession.h"
+	"Poco/Net/HTTPRequest.h"
+	"Poco/Net/HTTPResponse.h"
+	"Poco/StreamCopier.h"
+	"Poco/RWLock.h"
+	"Poco/Net/SocketAddress.h"
+	"Poco/Timespan.h"
+	"Poco/Net/Socket.h"
+	"Poco/Net/SocketReactor.h"
+	"Poco/Net/SocketAddress.h"
+	"Poco/Net/SocketAcceptor.h"
+	"Poco/Net/SocketConnector.h"
+	"Poco/Net/SocketNotification.h"
+	"Poco/Net/NetException.h"
+	"Poco/Observer.h"
+	"Poco/RefCountedObject.h"
+	"Poco/SingletonHolder.h"
+	"Poco/DateTime.h"
+	"Poco/Timer.h"
+	<time.h>
+	<list>
+	<set>
+	<deque>
+	<string>
+	<time.h>
+	<io.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<sys/stat.h>
+	<unistd.h>
+	<sys/time.h>
+	<sstream>
+	<stdlib.h>
+	<queue>
+	<vector>
+	<map>
+	<math.h>
+	<algorithm>
+	"Markup.h"
+
+1379313752 /mnt/hgfs/NewAccessServer/Markup.h
+	<string>
+	<string.h>
+
+1381547776 /mnt/hgfs/NewAccessServer/MsgServer.h
+	"Global.h"
+	"Const.h"
+	"ReactorServer.h"
+
+1381546809 /mnt/hgfs/NewAccessServer/ReactorServer.h
+	"Global.h"
+	"Msghead.h"
+	"Queue.h"
+	"Msghandler.h"
+	"ConfigNew.h"
+
+1381546343 /mnt/hgfs/NewAccessServer/Msghead.h
+	"define.h"
+	"Global.h"
+	"Const.h"
+
+1381546343 /mnt/hgfs/NewAccessServer/define.h
+
+1381546343 /mnt/hgfs/NewAccessServer/Const.h
+	"define.h"
+
+1381545694 /mnt/hgfs/NewAccessServer/Queue.h
+	<list>
+	"Poco/Mutex.h"
+	"Poco/Event.h"
+	"Poco/ScopedLock.h"
+
+1381546027 /mnt/hgfs/NewAccessServer/Msghandler.h
+	"Global.h"
+	"GlobalVar.h"
+	"Queue.h"
+	"Const.h"
+	"MsgDispatcher.h"
+	"NetUtility.h"
+
+1381546127 /mnt/hgfs/NewAccessServer/GlobalVar.h
+	"Global.h"
+	"define.h"
+	"Queue.h"
+	"Msghead.h"
+	"TyLog.h"
+
+1368406896 /mnt/hgfs/NewAccessServer/MemPool.h
+	<stdlib.h>
+
+1381374842 /mnt/hgfs/NewAccessServer/TyLog.h
+	"Poco/Thread.h"
+	"Poco/Mutex.h"
+	"Poco/Logger.h"
+	"Poco/LogStream.h"
+	"Poco/Runnable.h"
+	<list>
+
+1381368779 /mnt/hgfs/NewAccessServer/MsgDispatcher.h
+	"Global.h"
+	"Handler.h"
+
+1381374500 /mnt/hgfs/NewAccessServer/Handler.h
+	"Msghead.h"
+	"Global.h"
+
+1381384022 /mnt/hgfs/NewAccessServer/ConfigNew.h
+	"Global.h"
+	"StrUtility.h"
+
+1381473976 /mnt/hgfs/NewAccessServer/StrUtility.h
+	"Global.h"
+
+1381545402 /mnt/hgfs/NewAccessServer/MegaEyesMsgTask.h
+	"Queuetask.h"
+	"MegaeyesConversion.h"
+	"ProtocolConversion.h"
+
+1381545628 /mnt/hgfs/NewAccessServer/Queuetask.h
+	"Global.h"
+	"GlobalVar.h"
+	"Queue.h"
+	"Msghandler.h"
+	"TyLog.h"
+	"NetUtility.h"
+	"Msghead.h"
+
+1381384022 source:/mnt/hgfs/NewAccessServer/ConfigNew.cpp
+	"ConfigNew.h"
+
+1381381013 source:/mnt/hgfs/NewAccessServer/Global.cpp
+	"Global.h"
+
+1381543777 source:/mnt/hgfs/NewAccessServer/GlobalVar.cpp
+	"GlobalVar.h"
+
+1381367585 source:/mnt/hgfs/NewAccessServer/Handler.cpp
+	"Handler.h"
+
+1381479955 source:/mnt/hgfs/NewAccessServer/HdlConsole.cpp
+	"HdlConsole.h"
+
+1381475866 /mnt/hgfs/NewAccessServer/HdlConsole.h
+	"Global.h"
+	"Terminal.h"
+	"MegaeyesConversion.h"
+	"IProtocolConversion.h"
+	"ProtocolConversion.h"
+	"MsgDispatcher.h"
+	"ConfigNew.h"
+	"Heart_Transact_Task.h"
+	"NetUtility.h"
+
+1381478534 /mnt/hgfs/NewAccessServer/Terminal.h
+	"Global.h"
+	"GlobalVar.h"
+	"SmartPtr_T.h"
+	"Msghandler.h"
+	"ConfigNew.h"
+	"NetUtility.h"
+	"NetUtility.h"
+
+1371517802 /mnt/hgfs/NewAccessServer/SmartPtr_T.h
+	<assert.h>
+	<Poco/Mutex.h>
+
+1381544229 /mnt/hgfs/NewAccessServer/NetUtility.h
+	"Global.h"
+	"define.h"
+	"Msghead.h"
+
+1381306870 /mnt/hgfs/NewAccessServer/Heart_Transact_Task.h
+	"Global.h"
+	"Terminal.h"
+	"ConfigNew.h"
+
+1381397316 source:/mnt/hgfs/NewAccessServer/HdlStore.cpp
+	"HdlStore.h"
+
+1381397300 /mnt/hgfs/NewAccessServer/HdlStore.h
+	"MsgDispatcher.h"
+	"ConfigNew.h"
+	"Global.h"
+	"Msghandler.h"
+	"NetUtility.h"
+
+1381546001 source:/mnt/hgfs/NewAccessServer/HdlTerminal.cpp
+	"HdlTerminal.h"
+
+1381475866 /mnt/hgfs/NewAccessServer/HdlTerminal.h
+	"MsgDispatcher.h"
+	"IProtocolConversion.h"
+	"ProtocolConversion.h"
+	"MegaeyesConversion.h"
+	"Global.h"
+	"StrUtility.h"
+	"ConfigNew.h"
+	"Heart_Transact_Task.h"
+
+1381541699 source:/mnt/hgfs/NewAccessServer/Heart_Transact_Task.cpp
+	"Heart_Transact_Task.h"
+
+1368406896 source:/mnt/hgfs/NewAccessServer/Markup.cpp
+	<stdio.h>
+	<string.h>
+	<errno.h>
+	"Markup.h"
+
+1381545981 source:/mnt/hgfs/NewAccessServer/MegaEyesMsgTask.cpp
+	"MegaEyesMsgTask.h"
+	"Poco/Net/HTTPClientSession.h"
+	"Poco/Net/HTTPRequest.h"
+	"Poco/Net/HTTPResponse.h"
+	"Poco/StreamCopier.h"
+	<sstream>
+	"Poco/Net/StreamSocket.h"
+	"AccessServer.h"
+	"MsgDispatcher.h"
+	"Const.h"
+	<iostream>
+
+1381368779 source:/mnt/hgfs/NewAccessServer/MsgDispatcher.cpp
+	"MsgDispatcher.h"
+	"HdlTerminal.h"
+	"HdlConsole.h"
+	"HdlStore.h"
+
+1381396152 source:/mnt/hgfs/NewAccessServer/Msghandler.cpp
+	<iostream>
+	"Msghandler.h"
+	"Heart_Transact_Task.h"
+
+1381544208 source:/mnt/hgfs/NewAccessServer/NetUtility.cpp
+	"NetUtility.h"
+
+1381474038 source:/mnt/hgfs/NewAccessServer/StrUtility.cpp
+	"StrUtility.h"
+
+1381479034 source:/mnt/hgfs/NewAccessServer/Terminal.cpp
+	"Terminal.h"
+
+1381306213 source:/mnt/hgfs/NewAccessServer/Termproxy.cpp
+	"Termproxy.h"
+
+1381306283 /mnt/hgfs/NewAccessServer/Termproxy.h
+	"Global.h"
+	"Terminal.h"
+
+1368406896 source:/mnt/hgfs/NewAccessServer/TyLog.cpp
+	"TyLog.h"
+	"Poco/AutoPtr.h"
+	"Poco/SplitterChannel.h"
+	"Poco/PatternFormatter.h"
+	"Poco/FileChannel.h"
+	"Poco/ConsoleChannel.h"
+	"Poco/FormattingChannel.h"
+
+1381547274 source:/mnt/hgfs/NewAccessServer/TyMain.cpp
+	"AccessServer.h"
+	"ConfigNew.h"
+	"Heart_Transact_Task.h"
+	"TyLog.h"
+	"Global.h"
+
+1381545628 source:/mnt/hgfs/NewAccessServer/Queuetask.cpp
+	"Queuetask.h"
+
+1381557549 source:/mnt/hgfs/NewAccessServer_1.0.0/AccessServer.cpp
+	"AccessServer.h"
+
+1381557549 /mnt/hgfs/NewAccessServer_1.0.0/AccessServer.h
+	"Global.h"
+	"MsgServer.h"
+	"MegaEyesMsgTask.h"
+
+1381557549 /mnt/hgfs/NewAccessServer_1.0.0/Global.h
+	<Poco/HashMap.h>
+	<Poco/Mutex.h>
+	"Poco/ThreadPool.h"
+	"Poco/File.h"
+	"Poco/LocalDateTime.h"
+	"Poco/DateTimeFormatter.h"
+	"Poco/DateTimeFormat.h"
+	"Poco/Environment.h"
+	"Poco/Net/HTTPClientSession.h"
+	"Poco/Net/HTTPRequest.h"
+	"Poco/Net/HTTPResponse.h"
+	"Poco/StreamCopier.h"
+	"Poco/RWLock.h"
+	"Poco/Net/SocketAddress.h"
+	"Poco/Timespan.h"
+	"Poco/Net/Socket.h"
+	"Poco/Net/SocketReactor.h"
+	"Poco/Net/SocketAddress.h"
+	"Poco/Net/SocketAcceptor.h"
+	"Poco/Net/SocketConnector.h"
+	"Poco/Net/SocketNotification.h"
+	"Poco/Net/NetException.h"
+	"Poco/Observer.h"
+	"Poco/RefCountedObject.h"
+	"Poco/SingletonHolder.h"
+	"Poco/DateTime.h"
+	"Poco/Timer.h"
+	<time.h>
+	<list>
+	<set>
+	<deque>
+	<string>
+	<time.h>
+	<io.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<sys/stat.h>
+	<unistd.h>
+	<sys/time.h>
+	<sstream>
+	<stdlib.h>
+	<queue>
+	<vector>
+	<map>
+	<math.h>
+	<algorithm>
+	"Markup.h"
+
+1381557549 /mnt/hgfs/NewAccessServer_1.0.0/Markup.h
+	<string>
+	<string.h>
+
+1381557549 /mnt/hgfs/NewAccessServer_1.0.0/MsgServer.h
+	"Global.h"
+	"Const.h"
+	"ReactorServer.h"
+
+1381557549 /mnt/hgfs/NewAccessServer_1.0.0/Const.h
+	"define.h"
+
+1381729763 /mnt/hgfs/NewAccessServer_1.0.0/define.h
+
+1381557549 /mnt/hgfs/NewAccessServer_1.0.0/ReactorServer.h
+	"Global.h"
+	"Msghead.h"
+	"Queue.h"
+	"Msghandler.h"
+	"ConfigNew.h"
+
+1381557549 /mnt/hgfs/NewAccessServer_1.0.0/Msghead.h
+	"define.h"
+	"Global.h"
+	"Const.h"
+
+1381569718 /mnt/hgfs/NewAccessServer_1.0.0/Queue.h
+	"Global.h"
+
+1381714666 /mnt/hgfs/NewAccessServer_1.0.0/Msghandler.h
+	"Global.h"
+	"GlobalVar.h"
+	"Queue.h"
+	"Const.h"
+	"MsgDispatcher.h"
+	"NetUtility.h"
+
+1381975958 /mnt/hgfs/NewAccessServer_1.0.0/GlobalVar.h
+	"Global.h"
+	"define.h"
+	"Queue.h"
+	"Msghead.h"
+	"TyLog.h"
+
+1381557549 /mnt/hgfs/NewAccessServer_1.0.0/TyLog.h
+	"Poco/Thread.h"
+	"Poco/Mutex.h"
+	"Poco/Logger.h"
+	"Poco/LogStream.h"
+	"Poco/Runnable.h"
+	<list>
+
+1381557549 /mnt/hgfs/NewAccessServer_1.0.0/MsgDispatcher.h
+	"Global.h"
+	"Handler.h"
+
+1381557549 /mnt/hgfs/NewAccessServer_1.0.0/Handler.h
+	"Msghead.h"
+	"Global.h"
+
+1381714425 /mnt/hgfs/NewAccessServer_1.0.0/NetUtility.h
+	"Global.h"
+	"define.h"
+	"Msghead.h"
+
+1381557549 /mnt/hgfs/NewAccessServer_1.0.0/ConfigNew.h
+	"Global.h"
+	"StrUtility.h"
+
+1381557549 /mnt/hgfs/NewAccessServer_1.0.0/StrUtility.h
+	"Global.h"
+
+1381557549 /mnt/hgfs/NewAccessServer_1.0.0/MegaEyesMsgTask.h
+	"Queuetask.h"
+	"MegaeyesConversion.h"
+	"ProtocolConversion.h"
+
+1381557549 /mnt/hgfs/NewAccessServer_1.0.0/Queuetask.h
+	"Global.h"
+	"GlobalVar.h"
+	"Queue.h"
+	"Msghandler.h"
+	"TyLog.h"
+	"NetUtility.h"
+	"Msghead.h"
+
+1381557544 /mnt/hgfs/NewAccessServer_1.0.0/TyProtocolConversion/MegaeyesConversion.h
+	"IMegaeyesConversion.h"
+
+1381557544 /mnt/hgfs/NewAccessServer_1.0.0/TyProtocolConversion/IMegaeyesConversion.h
+	"Markup.h"
+	"ConvProto.h"
+
+1381557544 /mnt/hgfs/NewAccessServer_1.0.0/TyProtocolConversion/ConvProto.h
+	"Global.h"
+	"Const.h"
+
+1381557544 /mnt/hgfs/NewAccessServer_1.0.0/TyProtocolConversion/ProtocolConversion.h
+	"IProtocolConversion.h"
+	"IMegaeyesConversion.h"
+
+1381557544 /mnt/hgfs/NewAccessServer_1.0.0/TyProtocolConversion/IProtocolConversion.h
+	"ConvProto.h"
+	<stddef.h>
+	<string>
+
+1381557549 source:/mnt/hgfs/NewAccessServer_1.0.0/ConfigNew.cpp
+	"ConfigNew.h"
+
+1381557549 source:/mnt/hgfs/NewAccessServer_1.0.0/Global.cpp
+	"Global.h"
+
+1381975958 source:/mnt/hgfs/NewAccessServer_1.0.0/GlobalVar.cpp
+	"GlobalVar.h"
+
+1381557549 source:/mnt/hgfs/NewAccessServer_1.0.0/Handler.cpp
+	"Handler.h"
+
+1381729763 source:/mnt/hgfs/NewAccessServer_1.0.0/HdlStore.cpp
+	"HdlStore.h"
+
+1381557549 /mnt/hgfs/NewAccessServer_1.0.0/HdlStore.h
+	"MsgDispatcher.h"
+	"ConfigNew.h"
+	"Global.h"
+	"Msghandler.h"
+	"NetUtility.h"
+
+1381987974 source:/mnt/hgfs/NewAccessServer_1.0.0/HdlTerminal.cpp
+	"HdlTerminal.h"
+
+1381557549 /mnt/hgfs/NewAccessServer_1.0.0/HdlTerminal.h
+	"MsgDispatcher.h"
+	"IProtocolConversion.h"
+	"ProtocolConversion.h"
+	"MegaeyesConversion.h"
+	"Global.h"
+	"StrUtility.h"
+	"ConfigNew.h"
+	"Heart_Transact_Task.h"
+
+1381735392 /mnt/hgfs/NewAccessServer_1.0.0/Heart_Transact_Task.h
+	"Global.h"
+	"Terminal.h"
+	"ConfigNew.h"
+
+1381986837 /mnt/hgfs/NewAccessServer_1.0.0/Terminal.h
+	"Global.h"
+	"GlobalVar.h"
+	"SmartPtr_T.h"
+	"Msghandler.h"
+	"ConfigNew.h"
+	"NetUtility.h"
+	"NetUtility.h"
+	"NetUtility_ex.h"
+
+1381557549 /mnt/hgfs/NewAccessServer_1.0.0/SmartPtr_T.h
+	<assert.h>
+	<Poco/Mutex.h>
+
+1381975958 source:/mnt/hgfs/NewAccessServer_1.0.0/Heart_Transact_Task.cpp
+	"Heart_Transact_Task.h"
+
+1381557549 source:/mnt/hgfs/NewAccessServer_1.0.0/Markup.cpp
+	<stdio.h>
+	<string.h>
+	<errno.h>
+	"Markup.h"
+
+1381557549 source:/mnt/hgfs/NewAccessServer_1.0.0/MegaEyesMsgTask.cpp
+	"MegaEyesMsgTask.h"
+	"Poco/Net/HTTPClientSession.h"
+	"Poco/Net/HTTPRequest.h"
+	"Poco/Net/HTTPResponse.h"
+	"Poco/StreamCopier.h"
+	<sstream>
+	"Poco/Net/StreamSocket.h"
+	"AccessServer.h"
+	"MsgDispatcher.h"
+	"Const.h"
+	<iostream>
+
+1381557549 source:/mnt/hgfs/NewAccessServer_1.0.0/MsgDispatcher.cpp
+	"MsgDispatcher.h"
+	"HdlTerminal.h"
+	"HdlConsole.h"
+	"HdlStore.h"
+
+1381719021 /mnt/hgfs/NewAccessServer_1.0.0/HdlConsole.h
+	"Global.h"
+	"Terminal.h"
+	"MegaeyesConversion.h"
+	"IProtocolConversion.h"
+	"ProtocolConversion.h"
+	"MsgDispatcher.h"
+	"ConfigNew.h"
+	"Heart_Transact_Task.h"
+	"NetUtility.h"
+	"StrUtility.h"
+
+1381557549 source:/mnt/hgfs/NewAccessServer_1.0.0/NetUtility.cpp
+	"NetUtility.h"
+
+1381570662 source:/mnt/hgfs/NewAccessServer_1.0.0/Queuetask.cpp
+	"Queuetask.h"
+
+1381557549 source:/mnt/hgfs/NewAccessServer_1.0.0/StrUtility.cpp
+	"StrUtility.h"
+
+1381987974 source:/mnt/hgfs/NewAccessServer_1.0.0/Terminal.cpp
+	"Terminal.h"
+
+1381557549 source:/mnt/hgfs/NewAccessServer_1.0.0/Termproxy.cpp
+	"Termproxy.h"
+
+1381557549 /mnt/hgfs/NewAccessServer_1.0.0/Termproxy.h
+	"Global.h"
+	"Terminal.h"
+
+1381557549 source:/mnt/hgfs/NewAccessServer_1.0.0/TyLog.cpp
+	"TyLog.h"
+	"Poco/AutoPtr.h"
+	"Poco/SplitterChannel.h"
+	"Poco/PatternFormatter.h"
+	"Poco/FileChannel.h"
+	"Poco/ConsoleChannel.h"
+	"Poco/FormattingChannel.h"
+
+1381911556 source:/mnt/hgfs/NewAccessServer_1.0.0/TyMain.cpp
+	"ConfigNew.h"
+	"Heart_Transact_Task.h"
+	"TyLog.h"
+	"Global.h"
+	"BussinessEvent.h"
+	"BussinessServer.h"
+	"AccessEvent.h"
+
+1381903501 source:/mnt/hgfs/NewAccessServer_1.0.0/TyProtocolConversion/MegaeyesConversion.cpp
+	"MegaeyesConversion.h"
+	"ConvProto.h"
+	"Global.h"
+
+1381557544 source:/mnt/hgfs/NewAccessServer_1.0.0/TyProtocolConversion/ProtocolConversion.cpp
+	"ProtocolConversion.h"
+	"MegaeyesConversion.h"
+
+1381988833 source:/mnt/hgfs/NewAccessServer_1.0.0/HdlConsole.cpp
+	"HdlConsole.h"
+
+1381829710 /mnt/hgfs/NewAccessServer_1.0.0/NetUtility_ex.h
+	"Global.h"
+	"NetUtility.h"
+	"Msghead.h"
+
+1381990102 source:/mnt/hgfs/NewAccessServer_1.0.0/AccessEvent.cpp
+	"AccessEvent.h"
+
+1381893041 /mnt/hgfs/NewAccessServer_1.0.0/AccessEvent.h
+	"Global.h"
+	"GlobalVar.h"
+	"BussinessEvent.h"
+	"Msghandler.h"
+	"TyLog.h"
+	"NetUtility.h"
+	"Msghead.h"
+	"Handler.h"
+	"MegaeyesConversion.h"
+	"IProtocolConversion.h"
+	"ProtocolConversion.h"
+	"MsgDispatcher.h"
+
+1381803274 /mnt/hgfs/StandaryLibrary/Global.h
+	"Poco/HashMap.h"
+	"Poco/Mutex.h"
+	"Poco/ThreadPool.h"
+	"Poco/File.h"
+	"Poco/LocalDateTime.h"
+	"Poco/DateTimeFormatter.h"
+	"Poco/DateTimeFormat.h"
+	"Poco/Environment.h"
+	"Poco/Net/HTTPClientSession.h"
+	"Poco/Net/HTTPRequest.h"
+	"Poco/Net/HTTPResponse.h"
+	"Poco/StreamCopier.h"
+	"Poco/RWLock.h"
+	"Poco/Net/SocketAddress.h"
+	"Poco/Timespan.h"
+	"Poco/Net/Socket.h"
+	"Poco/Net/SocketReactor.h"
+	"Poco/Net/SocketAddress.h"
+	"Poco/Net/SocketAcceptor.h"
+	"Poco/Net/SocketConnector.h"
+	"Poco/Net/SocketNotification.h"
+	"Poco/Net/NetException.h"
+	"Poco/Observer.h"
+	"Poco/RefCountedObject.h"
+	"Poco/SingletonHolder.h"
+	"Poco/DateTime.h"
+	"Poco/Timer.h"
+	<time.h>
+	<list>
+	<set>
+	<deque>
+	<string>
+	<time.h>
+	<io.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<sys/stat.h>
+	<unistd.h>
+	<sys/time.h>
+	<sstream>
+	<stdlib.h>
+	<queue>
+	<vector>
+	<map>
+	<math.h>
+	<algorithm>
+	"Markup.h"
+
+1381557549 /mnt/hgfs/StandaryLibrary/Markup.h
+	<string>
+	<string.h>
+
+1381569718 /mnt/hgfs/StandaryLibrary/Queue.h
+	"Global.h"
+
+1381824046 /mnt/hgfs/StandaryLibrary/BussinessEvent.h
+	"Operator.h"
+
+1381802389 /mnt/hgfs/StandaryLibrary/Operator.h
+	"Global.h"
+
+1381825145 /mnt/hgfs/StandaryLibrary/NetUtility.h
+	"Global.h"
+
+1381731438 /mnt/hgfs/StandaryLibrary/StrUtility.h
+	"Global.h"
+
+1381973209 source:/mnt/hgfs/NewAccessServer_1.0.0/NetUtility_ex.cpp
+	"NetUtility_ex.h"
+
+1381824302 /mnt/hgfs/StandaryLibrary/BussinessServer.h
+	"Global.h"
+	"MsgHandler.h"
+	"QueueTask.h"
+	"StaticVar.h"
+
+1381977627 /mnt/hgfs/StandaryLibrary/MsgHandler.h
+	"Global.h"
+	"Operator.h"
+	"StaticVar.h"
+	"Terminal.h"
+
+1381809155 /mnt/hgfs/StandaryLibrary/StaticVar.h
+	"Global.h"
+	"Queue.h"
+	"Operator.h"
+
+1381907793 /mnt/hgfs/StandaryLibrary/QueueTask.h
+	"Global.h"
+	"Queue.h"
+	"Msghandler.h"
+	"BussinessEvent.h"
+
+1381824688 source:/mnt/hgfs/StandaryLibrary/BussinessServer.cpp
+	"BussinessServer.h"
+
+1381557549 source:/mnt/hgfs/StandaryLibrary/Markup.cpp
+	<stdio.h>
+	<string.h>
+	<errno.h>
+	"Markup.h"
+
+1381977308 source:/mnt/hgfs/StandaryLibrary/NetUtility.cpp
+	"NetUtility.h"
+
+1381990394 source:/mnt/hgfs/StandaryLibrary/QueueTask.cpp
+	"Queuetask.h"
+	"Operator.h"
+
+1381806476 source:/mnt/hgfs/StandaryLibrary/StaticVar.cpp
+	"StaticVar.h"
+
+1381731438 source:/mnt/hgfs/StandaryLibrary/StrUtility.cpp
+	"StrUtility.h"
+
+1386833112 source:/mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/ConfigNew.cpp
+	"ConfigNew.h"
+
+1386833112 /mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/ConfigNew.h
+	"Global.h"
+	"StrUtility.h"
+
+1387273225 /mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/Global.h
+	"Poco/HashMap.h"
+	"Poco/Mutex.h"
+	"Poco/ThreadPool.h"
+	"Poco/File.h"
+	"Poco/LocalDateTime.h"
+	"Poco/DateTimeFormatter.h"
+	"Poco/DateTimeFormat.h"
+	"Poco/Environment.h"
+	"Poco/Net/HTTPClientSession.h"
+	"Poco/Net/HTTPRequest.h"
+	"Poco/Net/HTTPResponse.h"
+	"Poco/StreamCopier.h"
+	"Poco/RWLock.h"
+	"Poco/Net/SocketAddress.h"
+	"Poco/Timespan.h"
+	"Poco/Net/Socket.h"
+	"Poco/Net/SocketReactor.h"
+	"Poco/Net/SocketAddress.h"
+	"Poco/Net/SocketAcceptor.h"
+	"Poco/Net/SocketConnector.h"
+	"Poco/Net/SocketNotification.h"
+	"Poco/Net/NetException.h"
+	"Poco/Observer.h"
+	"Poco/RefCountedObject.h"
+	"Poco/SingletonHolder.h"
+	"Poco/DateTime.h"
+	"Poco/Timer.h"
+	<time.h>
+	<list>
+	<set>
+	<deque>
+	<string>
+	<time.h>
+	<io.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<sys/stat.h>
+	<unistd.h>
+	<sys/time.h>
+	<sstream>
+	<stdlib.h>
+	<queue>
+	<vector>
+	<map>
+	<math.h>
+	<algorithm>
+	"Markup.h"
+
+1381557549 /mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/Markup.h
+	<string>
+	<string.h>
+
+1386734169 /mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/StrUtility.h
+	"Global.h"
+
+1387500367 source:/mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/GlobalVar.cpp
+	"GlobalVar.h"
+
+1387500412 /mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/GlobalVar.h
+	"Global.h"
+	"define.h"
+	"Queue.h"
+	"Msghead.h"
+	"TyLog.h"
+
+1387345338 /mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/define.h
+
+1381569718 /mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/Queue.h
+	"Global.h"
+
+1382057764 /mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/Msghead.h
+	"define.h"
+	"Global.h"
+	"Const.h"
+
+1386654157 /mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/Const.h
+	"define.h"
+
+1381557549 /mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/TyLog.h
+	"Poco/Thread.h"
+	"Poco/Mutex.h"
+	"Poco/Logger.h"
+	"Poco/LogStream.h"
+	"Poco/Runnable.h"
+	<list>
+
+1387942667 source:/mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/Handler.cpp
+	"Handler.h"
+
+1381557549 /mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/Handler.h
+	"Msghead.h"
+	"Global.h"
+
+1381729763 source:/mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/HdlStore.cpp
+	"HdlStore.h"
+
+1381557549 /mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/HdlStore.h
+	"MsgDispatcher.h"
+	"ConfigNew.h"
+	"Global.h"
+	"Msghandler.h"
+	"NetUtility.h"
+
+1387518866 /mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/MsgDispatcher.h
+	"Global.h"
+	"Handler.h"
+
+1381825145 /mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/NetUtility.h
+	"Global.h"
+
+1381557549 source:/mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/Markup.cpp
+	<stdio.h>
+	<string.h>
+	<errno.h>
+	"Markup.h"
+
+1387933169 source:/mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/Termproxy.cpp
+	"Termproxy.h"
+
+1387933169 /mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/Termproxy.h
+	"Global.h"
+	"Terminal.h"
+
+1387938029 /mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/Terminal.h
+	"Global.h"
+	"GlobalVar.h"
+	"Msghandler.h"
+	"SmartPtr_T.h"
+	"ConfigNew.h"
+	"NetUtility.h"
+	"NetUtility.h"
+	"NetUtility_ex.h"
+
+1387939320 /mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/SmartPtr_T.h
+	<assert.h>
+	<Poco/Mutex.h>
+
+1381829710 /mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/NetUtility_ex.h
+	"Global.h"
+	"NetUtility.h"
+	"Msghead.h"
+
+1381557549 source:/mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/TyLog.cpp
+	"TyLog.h"
+	"Poco/AutoPtr.h"
+	"Poco/SplitterChannel.h"
+	"Poco/PatternFormatter.h"
+	"Poco/FileChannel.h"
+	"Poco/ConsoleChannel.h"
+	"Poco/FormattingChannel.h"
+
+1387856428 source:/mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/AccessEvent.cpp
+	"AccessEvent.h"
+
+1381893041 /mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/AccessEvent.h
+	"Global.h"
+	"GlobalVar.h"
+	"BussinessEvent.h"
+	"Msghandler.h"
+	"TyLog.h"
+	"NetUtility.h"
+	"Msghead.h"
+	"Handler.h"
+	"MegaeyesConversion.h"
+	"IProtocolConversion.h"
+	"ProtocolConversion.h"
+	"MsgDispatcher.h"
+
+1381824046 /mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/BussinessEvent.h
+	"Operator.h"
+
+1387777615 /mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/Operator.h
+	"Global.h"
+
+1382080844 /mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/TyProtocolConversion/MegaeyesConversion.h
+	"IMegaeyesConversion.h"
+
+1381557544 /mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/TyProtocolConversion/IMegaeyesConversion.h
+	"Markup.h"
+	"ConvProto.h"
+
+1386206677 /mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/TyProtocolConversion/ConvProto.h
+	"../Global.h"
+	"../Const.h"
+
+1386206211 /mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/TyProtocolConversion/IProtocolConversion.h
+	"ConvProto.h"
+	<stddef.h>
+	<string>
+
+1381557544 /mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/TyProtocolConversion/ProtocolConversion.h
+	"IProtocolConversion.h"
+	"IMegaeyesConversion.h"
+
+1382002214 source:/mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/BussinessServer.cpp
+	"BussinessServer.h"
+
+1381824302 /mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/BussinessServer.h
+	"Global.h"
+	"MsgHandler.h"
+	"QueueTask.h"
+	"StaticVar.h"
+
+1387856452 /mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/MsgHandler.h
+	"Global.h"
+	"Operator.h"
+	"StaticVar.h"
+
+1381809155 /mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/StaticVar.h
+	"Global.h"
+	"Queue.h"
+	"Operator.h"
+
+1381907793 /mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/QueueTask.h
+	"Global.h"
+	"Queue.h"
+	"Msghandler.h"
+	"BussinessEvent.h"
+
+1388107356 source:/mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/HdlConsole.cpp
+	"HdlConsole.h"
+
+1387272238 /mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/HdlConsole.h
+	"Global.h"
+	"Terminal.h"
+	"Usersession.h"
+	"MegaeyesConversion.h"
+	"IProtocolConversion.h"
+	"ProtocolConversion.h"
+	"MsgDispatcher.h"
+	"ConfigNew.h"
+	"Heart_Transact_Task.h"
+	"NetUtility.h"
+	"StrUtility.h"
+
+1387938404 /mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/Heart_Transact_Task.h
+	"Global.h"
+	"Terminal.h"
+	"Usersession.h"
+	"ConfigNew.h"
+
+1388031360 source:/mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/HdlTerminal.cpp
+	"HdlTerminal.h"
+
+1381557549 /mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/HdlTerminal.h
+	"MsgDispatcher.h"
+	"IProtocolConversion.h"
+	"ProtocolConversion.h"
+	"MegaeyesConversion.h"
+	"Global.h"
+	"StrUtility.h"
+	"ConfigNew.h"
+	"Heart_Transact_Task.h"
+
+1387948409 source:/mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/Heart_Transact_Task.cpp
+	"Heart_Transact_Task.h"
+
+1387272238 source:/mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/MsgDispatcher.cpp
+	"MsgDispatcher.h"
+	"HdlTerminal.h"
+	"HdlConsole.h"
+	"HdlStore.h"
+
+1387808265 source:/mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/MsgHandler.cpp
+	"MsgHandler.h"
+	"Terminal.h"
+	"Usersession.h"
+
+1387882870 source:/mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/NetUtility.cpp
+	"NetUtility.h"
+	"TyLog.h"
+	"GlobalVar.h"
+
+1386225353 source:/mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/NetUtility_ex.cpp
+	"NetUtility_ex.h"
+	"TyLog.h"
+	"GlobalVar.h"
+
+1387941182 source:/mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/QueueTask.cpp
+	"Queuetask.h"
+	"Operator.h"
+
+1381806476 source:/mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/StaticVar.cpp
+	"StaticVar.h"
+
+1386734169 source:/mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/StrUtility.cpp
+	"StrUtility.h"
+
+1387947938 source:/mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/Terminal.cpp
+	"Terminal.h"
+
+1387941044 source:/mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/TyMain.cpp
+	"ConfigNew.h"
+	"Heart_Transact_Task.h"
+	"TyLog.h"
+	"Global.h"
+	"BussinessEvent.h"
+	"BussinessServer.h"
+	"AccessEvent.h"
+
+1388029841 source:/mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/TyProtocolConversion/MegaeyesConversion.cpp
+	"MegaeyesConversion.h"
+	"ConvProto.h"
+	"Global.h"
+
+1387345338 source:/mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/TyProtocolConversion/ProtocolConversion.cpp
+	"ProtocolConversion.h"
+	"MegaeyesConversion.h"
+
+1387937090 /mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/Usersession.h
+	"Global.h"
+	"GlobalVar.h"
+	"SmartPtr_T.h"
+	"Msghandler.h"
+	"ConfigNew.h"
+	"NetUtility.h"
+	"NetUtility.h"
+	"NetUtility_ex.h"
+
+1387759516 source:/mnt/hgfs/F/mywork/NewAccessServer_1.0.0(nat)/Usersession.cpp
+	"Usersession.h"
+
+1382002214 source:/mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/BussinessServer.cpp
+	"BussinessServer.h"
+
+1381824302 /mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/BussinessServer.h
+	"Global.h"
+	"MsgHandler.h"
+	"QueueTask.h"
+	"StaticVar.h"
+
+1388737207 /mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/Global.h
+	"Poco/HashMap.h"
+	"Poco/Mutex.h"
+	"Poco/ThreadPool.h"
+	"Poco/File.h"
+	"Poco/LocalDateTime.h"
+	"Poco/DateTimeFormatter.h"
+	"Poco/DateTimeFormat.h"
+	"Poco/Environment.h"
+	"Poco/Net/HTTPClientSession.h"
+	"Poco/Net/HTTPRequest.h"
+	"Poco/Net/HTTPResponse.h"
+	"Poco/StreamCopier.h"
+	"Poco/RWLock.h"
+	"Poco/Net/SocketAddress.h"
+	"Poco/Timespan.h"
+	"Poco/Net/Socket.h"
+	"Poco/Net/SocketReactor.h"
+	"Poco/Net/SocketAddress.h"
+	"Poco/Net/SocketAcceptor.h"
+	"Poco/Net/SocketConnector.h"
+	"Poco/Net/SocketNotification.h"
+	"Poco/Net/NetException.h"
+	"Poco/Observer.h"
+	"Poco/RefCountedObject.h"
+	"Poco/SingletonHolder.h"
+	"Poco/DateTime.h"
+	"Poco/Timer.h"
+	<time.h>
+	<list>
+	<set>
+	<deque>
+	<string>
+	<time.h>
+	<io.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<sys/stat.h>
+	<unistd.h>
+	<sys/time.h>
+	<sstream>
+	<stdlib.h>
+	<queue>
+	<vector>
+	<map>
+	<math.h>
+	<algorithm>
+	"Markup.h"
+
+1381557549 /mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/Markup.h
+	<string>
+	<string.h>
+
+1389771579 /mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/MsgHandler.h
+	"Global.h"
+	"Operator.h"
+	"StaticVar.h"
+
+1387777615 /mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/Operator.h
+	"Global.h"
+
+1381809155 /mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/StaticVar.h
+	"Global.h"
+	"Queue.h"
+	"Operator.h"
+
+1381569718 /mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/Queue.h
+	"Global.h"
+
+1381907793 /mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/QueueTask.h
+	"Global.h"
+	"Queue.h"
+	"Msghandler.h"
+	"BussinessEvent.h"
+
+1381824046 /mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/BussinessEvent.h
+	"Operator.h"
+
+1390462918 source:/mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/GlobalVar.cpp
+	"GlobalVar.h"
+
+1390462918 /mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/GlobalVar.h
+	"Global.h"
+	"define.h"
+	"Queue.h"
+	"Msghead.h"
+	"TyLog.h"
+
+1391999454 /mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/define.h
+
+1390462677 /mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/Msghead.h
+	"define.h"
+	"Global.h"
+	"Const.h"
+
+1386654157 /mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/Const.h
+	"define.h"
+
+1389769330 /mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/TyLog.h
+	"Poco/Thread.h"
+	"Poco/Mutex.h"
+	"Poco/Logger.h"
+	"Poco/LogStream.h"
+	"Poco/Runnable.h"
+	<list>
+
+1392016044 source:/mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/HdlStore.cpp
+	"HdlStore.h"
+
+1391995828 /mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/HdlStore.h
+	"MsgDispatcher.h"
+	"Global.h"
+	"Msghandler.h"
+	"NetUtility.h"
+	"LocalVar.h"
+
+1387518866 /mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/MsgDispatcher.h
+	"Global.h"
+	"Handler.h"
+
+1388736596 /mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/Handler.h
+	"Msghead.h"
+	"Global.h"
+
+1381825145 /mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/NetUtility.h
+	"Global.h"
+
+1391999454 /mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/LocalVar.h
+	"Global.h"
+	"define.h"
+	"Queue.h"
+	"Msghead.h"
+	"TyLog.h"
+	"Terminal.h"
+	"Usersession.h"
+	"ConfigItem.h"
+	"HeartManageTask.h"
+	"Dispatch.h"
+	"Store.h"
+
+1392002536 /mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/Terminal.h
+	"Global.h"
+	"GlobalVar.h"
+	"Msghandler.h"
+	"SmartPtr_T.h"
+	"NetUtility.h"
+	"NetUtility.h"
+	"NetUtility_ex.h"
+
+1387939320 /mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/SmartPtr_T.h
+	<assert.h>
+	<Poco/Mutex.h>
+
+1392959940 /mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/NetUtility_ex.h
+	"Global.h"
+	"NetUtility.h"
+	"Msghead.h"
+	"define.h"
+
+1389753801 /mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/Usersession.h
+	"Global.h"
+	"GlobalVar.h"
+	"SmartPtr_T.h"
+	"Msghandler.h"
+	"NetUtility.h"
+	"NetUtility.h"
+	"NetUtility_ex.h"
+
+1390462677 /mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/ConfigItem.h
+	"Global.h"
+	"StrUtility.h"
+	"define.h"
+
+1389083664 /mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/StrUtility.h
+	"Global.h"
+
+1392629707 /mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/HeartManageTask.h
+	"Global.h"
+	"Terminal.h"
+	"Markup.h"
+
+1388728284 /mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/Dispatch.h
+	"Global.h"
+	"SmartPtr_T.h"
+
+1381557549 source:/mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/Markup.cpp
+	<stdio.h>
+	<string.h>
+	<errno.h>
+	"Markup.h"
+
+1387941182 source:/mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/QueueTask.cpp
+	"Queuetask.h"
+	"Operator.h"
+
+1381806476 source:/mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/StaticVar.cpp
+	"StaticVar.h"
+
+1387933169 source:/mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/Termproxy.cpp
+	"Termproxy.h"
+
+1387933169 /mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/Termproxy.h
+	"Global.h"
+	"Terminal.h"
+
+1389771845 source:/mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/AccessEvent.cpp
+	"AccessEvent.h"
+
+1388969693 /mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/AccessEvent.h
+	"Global.h"
+	"GlobalVar.h"
+	"BussinessEvent.h"
+	"Msghandler.h"
+	"TyLog.h"
+	"NetUtility.h"
+	"Msghead.h"
+	"Handler.h"
+	"MsgDispatcher.h"
+
+1388736596 source:/mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/Handler.cpp
+	"Handler.h"
+
+1393208154 source:/mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/HdlConsole.cpp
+	"HdlConsole.h"
+
+1393210481 /mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/HdlConsole.h
+	"Global.h"
+	"Terminal.h"
+	"Usersession.h"
+	"MsgDispatcher.h"
+	"NetUtility.h"
+	"StrUtility.h"
+	"LocalVar.h"
+
+1392707020 source:/mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/HdlTerminal.cpp
+	"HdlTerminal.h"
+
+1392693507 /mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/HdlTerminal.h
+	"MsgDispatcher.h"
+	"Global.h"
+	"StrUtility.h"
+	"LocalVar.h"
+
+1392946471 source:/mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/MsgDispatcher.cpp
+	"MsgDispatcher.h"
+	"HdlTerminal.h"
+	"HdlConsole.h"
+	"HdlStore.h"
+	"HdlDispatch.h"
+
+1389662834 /mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/HdlDispatch.h
+	"Global.h"
+	"Handler.h"
+	"Terminal.h"
+	"NetUtility.h"
+	"StrUtility.h"
+	"LocalVar.h"
+
+1389771579 source:/mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/MsgHandler.cpp
+	"MsgHandler.h"
+	"Terminal.h"
+	"Usersession.h"
+
+1389768662 source:/mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/NetUtility.cpp
+	"NetUtility.h"
+	"TyLog.h"
+	"GlobalVar.h"
+
+1392977052 source:/mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/NetUtility_ex.cpp
+	"NetUtility_ex.h"
+	"TyLog.h"
+	"GlobalVar.h"
+
+1389083664 source:/mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/StrUtility.cpp
+	"StrUtility.h"
+
+1392000317 source:/mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/Terminal.cpp
+	"Terminal.h"
+	"LocalVar.h"
+
+1389769192 source:/mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/TyLog.cpp
+	"TyLog.h"
+	"Poco/AutoPtr.h"
+	"Poco/SplitterChannel.h"
+	"Poco/PatternFormatter.h"
+	"Poco/FileChannel.h"
+	"Poco/ConsoleChannel.h"
+	"Poco/FormattingChannel.h"
+
+1392012033 source:/mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/TyMain.cpp
+	"HeartManageTask.h"
+	"TyLog.h"
+	"Global.h"
+	"BussinessEvent.h"
+	"BussinessServer.h"
+	"AccessEvent.h"
+	"LocalVar.h"
+
+1392960044 source:/mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/Usersession.cpp
+	"Usersession.h"
+	"LocalVar.h"
+
+1392880173 source:/mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/HeartManageTask.cpp
+	"HeartManageTask.h"
+	"LocalVar.h"
+
+1389768350 source:/mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/LocalVar.cpp
+	"LocalVar.h"
+
+1389592100 source:/mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/Dispatch.cpp
+	"Dispatch.h"
+	"LocalVar.h"
+
+1389662892 source:/mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/HdlDispatch.cpp
+	"HdlDispatch.h"
+
+1390462677 source:/mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/ConfigItem.cpp
+	"ConfigItem.h"
+
+1392010527 /mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/Store.h
+	"Global.h"
+	"GlobalVar.h"
+	"SmartPtr_T.h"
+	"Msghandler.h"
+	"NetUtility.h"
+	"NetUtility.h"
+	"NetUtility_ex.h"
+
+1392010928 source:/mnt/hgfs/F/WorkStation/NewAccessServer_1.0.0nat/Store.cpp
+	"LocalVar.h"
+
+1401948718 source:/mnt/hgfs/NewAccessServer_1.0.0nat/AccessEvent.cpp
+	"AccessEvent.h"
+
+1394443405 /mnt/hgfs/NewAccessServer_1.0.0nat/AccessEvent.h
+	"Global.h"
+	"GlobalVar.h"
+	"BussinessEvent.h"
+	"Msghandler.h"
+	"TyLog.h"
+	"NetUtility.h"
+	"Msghead.h"
+	"Handler.h"
+	"MsgDispatcher.h"
+
+1394443405 /mnt/hgfs/NewAccessServer_1.0.0nat/Global.h
+	"Poco/HashMap.h"
+	"Poco/Mutex.h"
+	"Poco/ThreadPool.h"
+	"Poco/File.h"
+	"Poco/LocalDateTime.h"
+	"Poco/DateTimeFormatter.h"
+	"Poco/DateTimeFormat.h"
+	"Poco/Environment.h"
+	"Poco/Net/HTTPClientSession.h"
+	"Poco/Net/HTTPRequest.h"
+	"Poco/Net/HTTPResponse.h"
+	"Poco/StreamCopier.h"
+	"Poco/RWLock.h"
+	"Poco/Net/SocketAddress.h"
+	"Poco/Timespan.h"
+	"Poco/Net/Socket.h"
+	"Poco/Net/SocketReactor.h"
+	"Poco/Net/SocketAddress.h"
+	"Poco/Net/SocketAcceptor.h"
+	"Poco/Net/SocketConnector.h"
+	"Poco/Net/SocketNotification.h"
+	"Poco/Net/NetException.h"
+	"Poco/Observer.h"
+	"Poco/RefCountedObject.h"
+	"Poco/SingletonHolder.h"
+	"Poco/DateTime.h"
+	"Poco/Timer.h"
+	<time.h>
+	<list>
+	<set>
+	<deque>
+	<string>
+	<time.h>
+	<io.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<sys/stat.h>
+	<unistd.h>
+	<sys/time.h>
+	<sstream>
+	<stdlib.h>
+	<queue>
+	<vector>
+	<map>
+	<math.h>
+	<algorithm>
+	"Markup.h"
+
+1394443405 /mnt/hgfs/NewAccessServer_1.0.0nat/Markup.h
+	<string>
+	<string.h>
+
+1394443407 /mnt/hgfs/NewAccessServer_1.0.0nat/GlobalVar.h
+	"Global.h"
+	"define.h"
+	"Queue.h"
+	"Msghead.h"
+	"TyLog.h"
+
+1400638419 /mnt/hgfs/NewAccessServer_1.0.0nat/define.h
+
+1394443406 /mnt/hgfs/NewAccessServer_1.0.0nat/Queue.h
+	"Global.h"
+
+1394443405 /mnt/hgfs/NewAccessServer_1.0.0nat/Msghead.h
+	"define.h"
+	"Global.h"
+	"Const.h"
+
+1395732950 /mnt/hgfs/NewAccessServer_1.0.0nat/Const.h
+	"define.h"
+
+1394443405 /mnt/hgfs/NewAccessServer_1.0.0nat/TyLog.h
+	"Poco/Thread.h"
+	"Poco/Mutex.h"
+	"Poco/Logger.h"
+	"Poco/LogStream.h"
+	"Poco/Runnable.h"
+	<list>
+
+1394443406 /mnt/hgfs/NewAccessServer_1.0.0nat/BussinessEvent.h
+	"Operator.h"
+
+1399618006 /mnt/hgfs/NewAccessServer_1.0.0nat/Operator.h
+	"Global.h"
+
+1397812347 /mnt/hgfs/NewAccessServer_1.0.0nat/NetUtility.h
+	"Global.h"
+
+1395731617 /mnt/hgfs/NewAccessServer_1.0.0nat/Handler.h
+	"Msghead.h"
+	"Global.h"
+
+1394443407 /mnt/hgfs/NewAccessServer_1.0.0nat/MsgDispatcher.h
+	"Global.h"
+	"Handler.h"
+
+1394443405 source:/mnt/hgfs/NewAccessServer_1.0.0nat/BussinessServer.cpp
+	"BussinessServer.h"
+
+1394443407 /mnt/hgfs/NewAccessServer_1.0.0nat/BussinessServer.h
+	"Global.h"
+	"MsgHandler.h"
+	"QueueTask.h"
+	"StaticVar.h"
+
+1403055903 /mnt/hgfs/NewAccessServer_1.0.0nat/MsgHandler.h
+	"Global.h"
+	"Operator.h"
+	"StaticVar.h"
+
+1394443405 /mnt/hgfs/NewAccessServer_1.0.0nat/StaticVar.h
+	"Global.h"
+	"Queue.h"
+	"Operator.h"
+
+1394443405 /mnt/hgfs/NewAccessServer_1.0.0nat/QueueTask.h
+	"Global.h"
+	"Queue.h"
+	"Msghandler.h"
+	"BussinessEvent.h"
+
+1394443405 source:/mnt/hgfs/NewAccessServer_1.0.0nat/ConfigItem.cpp
+	"ConfigItem.h"
+
+1394443405 /mnt/hgfs/NewAccessServer_1.0.0nat/ConfigItem.h
+	"Global.h"
+	"StrUtility.h"
+	"define.h"
+
+1394443407 /mnt/hgfs/NewAccessServer_1.0.0nat/StrUtility.h
+	"Global.h"
+
+1394443405 source:/mnt/hgfs/NewAccessServer_1.0.0nat/Dispatch.cpp
+	"Dispatch.h"
+	"LocalVar.h"
+
+1394443407 /mnt/hgfs/NewAccessServer_1.0.0nat/Dispatch.h
+	"Global.h"
+	"SmartPtr_T.h"
+
+1394443407 /mnt/hgfs/NewAccessServer_1.0.0nat/SmartPtr_T.h
+	<assert.h>
+	<Poco/Mutex.h>
+
+1403055358 /mnt/hgfs/NewAccessServer_1.0.0nat/LocalVar.h
+	"Global.h"
+	"define.h"
+	"Queue.h"
+	"Msghead.h"
+	"TyLog.h"
+	"Terminal.h"
+	"Usersession.h"
+	"ConfigItem.h"
+	"HeartManageTask.h"
+	"Dispatch.h"
+	"Store.h"
+
+1403055448 /mnt/hgfs/NewAccessServer_1.0.0nat/Terminal.h
+	"Global.h"
+	"GlobalVar.h"
+	"Msghandler.h"
+	"SmartPtr_T.h"
+	"NetUtility.h"
+	"NetUtility.h"
+	"NetUtility_ex.h"
+
+1397656575 /mnt/hgfs/NewAccessServer_1.0.0nat/NetUtility_ex.h
+	"Global.h"
+	"NetUtility.h"
+	"Msghead.h"
+	"define.h"
+
+1394443405 /mnt/hgfs/NewAccessServer_1.0.0nat/Usersession.h
+	"Global.h"
+	"GlobalVar.h"
+	"SmartPtr_T.h"
+	"Msghandler.h"
+	"NetUtility.h"
+	"NetUtility.h"
+	"NetUtility_ex.h"
+
+1398326318 /mnt/hgfs/NewAccessServer_1.0.0nat/HeartManageTask.h
+	"Global.h"
+	"Terminal.h"
+	"Markup.h"
+
+1398326244 /mnt/hgfs/NewAccessServer_1.0.0nat/Store.h
+	"Global.h"
+	"GlobalVar.h"
+	"SmartPtr_T.h"
+	"Msghandler.h"
+	"NetUtility.h"
+	"NetUtility.h"
+	"NetUtility_ex.h"
+
+1394443405 source:/mnt/hgfs/NewAccessServer_1.0.0nat/GlobalVar.cpp
+	"GlobalVar.h"
+
+1394443407 source:/mnt/hgfs/NewAccessServer_1.0.0nat/Handler.cpp
+	"Handler.h"
+
+1399617626 source:/mnt/hgfs/NewAccessServer_1.0.0nat/HdlConsole.cpp
+	"HdlConsole.h"
+
+1400577609 /mnt/hgfs/NewAccessServer_1.0.0nat/HdlConsole.h
+	"Global.h"
+	"Terminal.h"
+	"Usersession.h"
+	"MsgDispatcher.h"
+	"NetUtility.h"
+	"StrUtility.h"
+	"LocalVar.h"
+
+1398234227 source:/mnt/hgfs/NewAccessServer_1.0.0nat/HdlDispatch.cpp
+	"HdlDispatch.h"
+
+1394443407 /mnt/hgfs/NewAccessServer_1.0.0nat/HdlDispatch.h
+	"Global.h"
+	"Handler.h"
+	"Terminal.h"
+	"NetUtility.h"
+	"StrUtility.h"
+	"LocalVar.h"
+
+1398234246 source:/mnt/hgfs/NewAccessServer_1.0.0nat/HdlStore.cpp
+	"HdlStore.h"
+
+1394443405 /mnt/hgfs/NewAccessServer_1.0.0nat/HdlStore.h
+	"MsgDispatcher.h"
+	"Global.h"
+	"Msghandler.h"
+	"NetUtility.h"
+	"LocalVar.h"
+
+1399975383 source:/mnt/hgfs/NewAccessServer_1.0.0nat/HdlTerminal.cpp
+	"HdlTerminal.h"
+
+1399859402 /mnt/hgfs/NewAccessServer_1.0.0nat/HdlTerminal.h
+	"MsgDispatcher.h"
+	"Global.h"
+	"StrUtility.h"
+	"LocalVar.h"
+
+1401948718 source:/mnt/hgfs/NewAccessServer_1.0.0nat/HeartManageTask.cpp
+	"HeartManageTask.h"
+	"LocalVar.h"
+
+1394693620 source:/mnt/hgfs/NewAccessServer_1.0.0nat/LocalVar.cpp
+	"LocalVar.h"
+
+1394443405 source:/mnt/hgfs/NewAccessServer_1.0.0nat/Markup.cpp
+	<stdio.h>
+	<string.h>
+	<errno.h>
+	"Markup.h"
+
+1401933072 source:/mnt/hgfs/NewAccessServer_1.0.0nat/MsgDispatcher.cpp
+	"MsgDispatcher.h"
+	"HdlTerminal.h"
+	"HdlConsole.h"
+	"HdlStore.h"
+	"HdlDispatch.h"
+
+1394443406 source:/mnt/hgfs/NewAccessServer_1.0.0nat/MsgHandler.cpp
+	"MsgHandler.h"
+	"Terminal.h"
+	"Usersession.h"
+
+1395709653 source:/mnt/hgfs/NewAccessServer_1.0.0nat/NetUtility.cpp
+	"NetUtility.h"
+	"TyLog.h"
+	"GlobalVar.h"
+
+1395715506 source:/mnt/hgfs/NewAccessServer_1.0.0nat/NetUtility_ex.cpp
+	"NetUtility_ex.h"
+	"TyLog.h"
+	"GlobalVar.h"
+
+1395717464 source:/mnt/hgfs/NewAccessServer_1.0.0nat/QueueTask.cpp
+	"Queuetask.h"
+	"Operator.h"
+
+1394443405 source:/mnt/hgfs/NewAccessServer_1.0.0nat/StaticVar.cpp
+	"StaticVar.h"
+
+1398302076 source:/mnt/hgfs/NewAccessServer_1.0.0nat/Store.cpp
+	"LocalVar.h"
+
+1398821750 source:/mnt/hgfs/NewAccessServer_1.0.0nat/StrUtility.cpp
+	"StrUtility.h"
+
+1397284879 source:/mnt/hgfs/NewAccessServer_1.0.0nat/Terminal.cpp
+	"Terminal.h"
+	"LocalVar.h"
+
+1394443405 source:/mnt/hgfs/NewAccessServer_1.0.0nat/Termproxy.cpp
+	"Termproxy.h"
+
+1394443405 /mnt/hgfs/NewAccessServer_1.0.0nat/Termproxy.h
+	"Global.h"
+	"Terminal.h"
+
+1394443405 source:/mnt/hgfs/NewAccessServer_1.0.0nat/TyLog.cpp
+	"TyLog.h"
+	"Poco/AutoPtr.h"
+	"Poco/SplitterChannel.h"
+	"Poco/PatternFormatter.h"
+	"Poco/FileChannel.h"
+	"Poco/ConsoleChannel.h"
+	"Poco/FormattingChannel.h"
+
+1402306431 source:/mnt/hgfs/NewAccessServer_1.0.0nat/TyMain.cpp
+	"HeartManageTask.h"
+	"TyLog.h"
+	"Global.h"
+	"BussinessEvent.h"
+	"BussinessServer.h"
+	"AccessEvent.h"
+	"LocalVar.h"
+
+1394443405 source:/mnt/hgfs/NewAccessServer_1.0.0nat/Usersession.cpp
+	"Usersession.h"
+	"LocalVar.h"
+
+1394443405 source:/mnt/hgfs/work/NewAccessServer_1.0.0nat/BussinessServer.cpp
+	"BussinessServer.h"
+
+1394443407 /mnt/hgfs/work/NewAccessServer_1.0.0nat/BussinessServer.h
+	"Global.h"
+	"MsgHandler.h"
+	"QueueTask.h"
+	"StaticVar.h"
+
+1417231368 /mnt/hgfs/work/NewAccessServer_1.0.0nat/Global.h
+	"Poco/HashMap.h"
+	"Poco/Mutex.h"
+	"Poco/ThreadPool.h"
+	"Poco/File.h"
+	"Poco/LocalDateTime.h"
+	"Poco/DateTimeFormatter.h"
+	"Poco/DateTimeFormat.h"
+	"Poco/Environment.h"
+	"Poco/Net/HTTPClientSession.h"
+	"Poco/Net/HTTPRequest.h"
+	"Poco/Net/HTTPResponse.h"
+	"Poco/StreamCopier.h"
+	"Poco/RWLock.h"
+	"Poco/Net/SocketAddress.h"
+	"Poco/Timespan.h"
+	"Poco/Net/Socket.h"
+	"Poco/Net/SocketReactor.h"
+	"Poco/Net/SocketAddress.h"
+	"Poco/Net/SocketAcceptor.h"
+	"Poco/Net/SocketConnector.h"
+	"Poco/Net/SocketNotification.h"
+	"Poco/Net/NetException.h"
+	"Poco/Observer.h"
+	"Poco/RefCountedObject.h"
+	"Poco/SingletonHolder.h"
+	"Poco/DateTime.h"
+	"Poco/Timer.h"
+	"Poco/Timestamp.h"
+	<time.h>
+	<list>
+	<set>
+	<deque>
+	<string>
+	<time.h>
+	<io.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<sys/stat.h>
+	<unistd.h>
+	<sys/time.h>
+	<sstream>
+	<stdlib.h>
+	<queue>
+	<vector>
+	<map>
+	<math.h>
+	<algorithm>
+	"Markup.h"
+
+1394443405 /mnt/hgfs/work/NewAccessServer_1.0.0nat/Markup.h
+	<string>
+	<string.h>
+
+1416138163 /mnt/hgfs/work/NewAccessServer_1.0.0nat/MsgHandler.h
+	"Global.h"
+	"Operator.h"
+	"StaticVar.h"
+
+1399618006 /mnt/hgfs/work/NewAccessServer_1.0.0nat/Operator.h
+	"Global.h"
+
+1394443405 /mnt/hgfs/work/NewAccessServer_1.0.0nat/StaticVar.h
+	"Global.h"
+	"Queue.h"
+	"Operator.h"
+
+1394443406 /mnt/hgfs/work/NewAccessServer_1.0.0nat/Queue.h
+	"Global.h"
+
+1394443405 /mnt/hgfs/work/NewAccessServer_1.0.0nat/QueueTask.h
+	"Global.h"
+	"Queue.h"
+	"Msghandler.h"
+	"BussinessEvent.h"
+
+1394443406 /mnt/hgfs/work/NewAccessServer_1.0.0nat/BussinessEvent.h
+	"Operator.h"
+
+1394443405 source:/mnt/hgfs/work/NewAccessServer_1.0.0nat/ConfigItem.cpp
+	"ConfigItem.h"
+
+1394443405 /mnt/hgfs/work/NewAccessServer_1.0.0nat/ConfigItem.h
+	"Global.h"
+	"StrUtility.h"
+	"define.h"
+
+1394443407 /mnt/hgfs/work/NewAccessServer_1.0.0nat/StrUtility.h
+	"Global.h"
+
+1417398870 /mnt/hgfs/work/NewAccessServer_1.0.0nat/define.h
+
+1416984830 source:/mnt/hgfs/work/NewAccessServer_1.0.0nat/Dispatch.cpp
+	"Dispatch.h"
+	"LocalVar.h"
+
+1416984738 /mnt/hgfs/work/NewAccessServer_1.0.0nat/Dispatch.h
+	"Global.h"
+	"SmartPtr_T.h"
+
+1394443407 /mnt/hgfs/work/NewAccessServer_1.0.0nat/SmartPtr_T.h
+	<assert.h>
+	<Poco/Mutex.h>
+
+1417333632 /mnt/hgfs/work/NewAccessServer_1.0.0nat/LocalVar.h
+	"Global.h"
+	"define.h"
+	"Queue.h"
+	"Msghead.h"
+	"TyLog.h"
+	"Terminal.h"
+	"Usersession.h"
+	"ConfigItem.h"
+	"HeartManageTask.h"
+	"Dispatch.h"
+	"Store.h"
+
+1415328932 /mnt/hgfs/work/NewAccessServer_1.0.0nat/Msghead.h
+	"define.h"
+	"Global.h"
+	"Const.h"
+
+1417364848 /mnt/hgfs/work/NewAccessServer_1.0.0nat/Const.h
+	"define.h"
+
+1414377474 /mnt/hgfs/work/NewAccessServer_1.0.0nat/TyLog.h
+	"Poco/Thread.h"
+	"Poco/Mutex.h"
+	"Poco/Logger.h"
+	"Poco/LogStream.h"
+	"Poco/Runnable.h"
+	<list>
+
+1417420479 /mnt/hgfs/work/NewAccessServer_1.0.0nat/Terminal.h
+	"Global.h"
+	"GlobalVar.h"
+	"SmartPtr_T.h"
+	"NetUtility.h"
+	"Device.h"
+
+1394443407 /mnt/hgfs/work/NewAccessServer_1.0.0nat/GlobalVar.h
+	"Global.h"
+	"define.h"
+	"Queue.h"
+	"Msghead.h"
+	"TyLog.h"
+
+1397812347 /mnt/hgfs/work/NewAccessServer_1.0.0nat/NetUtility.h
+	"Global.h"
+
+1415847402 /mnt/hgfs/work/NewAccessServer_1.0.0nat/NetUtility_ex.h
+	"Global.h"
+	"NetUtility.h"
+	"Msghead.h"
+	"define.h"
+
+1417420499 /mnt/hgfs/work/NewAccessServer_1.0.0nat/Usersession.h
+	"Global.h"
+	"GlobalVar.h"
+	"SmartPtr_T.h"
+	"NetUtility.h"
+	"Device.h"
+
+1417232947 /mnt/hgfs/work/NewAccessServer_1.0.0nat/HeartManageTask.h
+	"Global.h"
+	"Terminal.h"
+	"Markup.h"
+
+1417420510 /mnt/hgfs/work/NewAccessServer_1.0.0nat/Store.h
+	"Global.h"
+	"GlobalVar.h"
+	"SmartPtr_T.h"
+	"NetUtility.h"
+
+1416993836 source:/mnt/hgfs/work/NewAccessServer_1.0.0nat/GlobalVar.cpp
+	"GlobalVar.h"
+
+1417006809 source:/mnt/hgfs/work/NewAccessServer_1.0.0nat/Handler.cpp
+	"Handler.h"
+	"AccessModule.h"
+	"LocalVar.h"
+
+1417365067 /mnt/hgfs/work/NewAccessServer_1.0.0nat/Handler.h
+	"Msghead.h"
+	"Global.h"
+	"Device.h"
+
+1417420823 source:/mnt/hgfs/work/NewAccessServer_1.0.0nat/HdlDispatch.cpp
+	"HdlDispatch.h"
+	"MsgHandler.h"
+
+1417365000 /mnt/hgfs/work/NewAccessServer_1.0.0nat/HdlDispatch.h
+	"Global.h"
+	"Handler.h"
+	"Terminal.h"
+	"NetUtility.h"
+	"StrUtility.h"
+	"LocalVar.h"
+
+1417365067 source:/mnt/hgfs/work/NewAccessServer_1.0.0nat/HdlStore.cpp
+	"HdlStore.h"
+
+1417420842 /mnt/hgfs/work/NewAccessServer_1.0.0nat/HdlStore.h
+	"MsgDispatcher.h"
+	"Global.h"
+	"MsgHandler.h"
+	"NetUtility.h"
+	"LocalVar.h"
+
+1394443407 /mnt/hgfs/work/NewAccessServer_1.0.0nat/MsgDispatcher.h
+	"Global.h"
+	"Handler.h"
+
+1417420855 source:/mnt/hgfs/work/NewAccessServer_1.0.0nat/HdlTerminal.cpp
+	"HdlTerminal.h"
+	"AccessModule.h"
+	"LogInfo.h"
+	"LogSys.h"
+	"MsgHandler.h"
+
+1417365140 /mnt/hgfs/work/NewAccessServer_1.0.0nat/HdlTerminal.h
+	"MsgDispatcher.h"
+	"Global.h"
+	"StrUtility.h"
+	"LocalVar.h"
+
+1417323042 source:/mnt/hgfs/work/NewAccessServer_1.0.0nat/HeartManageTask.cpp
+	"HeartManageTask.h"
+	"LocalVar.h"
+
+1417335672 source:/mnt/hgfs/work/NewAccessServer_1.0.0nat/LocalVar.cpp
+	"LocalVar.h"
+	"NetUtility.h"
+
+1394443405 source:/mnt/hgfs/work/NewAccessServer_1.0.0nat/Markup.cpp
+	<stdio.h>
+	<string.h>
+	<errno.h>
+	"Markup.h"
+
+1417577942 source:/mnt/hgfs/work/NewAccessServer_1.0.0nat/MsgDispatcher.cpp
+	"MsgDispatcher.h"
+	"HdlTerminal.h"
+	"HdlConsole.h"
+	"HdlStore.h"
+	"HdlDispatch.h"
+
+1417365384 /mnt/hgfs/work/NewAccessServer_1.0.0nat/HdlConsole.h
+	"Global.h"
+	"Terminal.h"
+	"Usersession.h"
+	"MsgDispatcher.h"
+	"NetUtility.h"
+	"StrUtility.h"
+	"LocalVar.h"
+
+1416141212 source:/mnt/hgfs/work/NewAccessServer_1.0.0nat/MsgHandler.cpp
+	"MsgHandler.h"
+
+1395709653 source:/mnt/hgfs/work/NewAccessServer_1.0.0nat/NetUtility.cpp
+	"NetUtility.h"
+	"TyLog.h"
+	"GlobalVar.h"
+
+1415847408 source:/mnt/hgfs/work/NewAccessServer_1.0.0nat/NetUtility_ex.cpp
+	"NetUtility_ex.h"
+	"TyLog.h"
+	"GlobalVar.h"
+
+1415763412 source:/mnt/hgfs/work/NewAccessServer_1.0.0nat/QueueTask.cpp
+	"Queuetask.h"
+	"Operator.h"
+	<iostream>
+
+1394443405 source:/mnt/hgfs/work/NewAccessServer_1.0.0nat/StaticVar.cpp
+	"StaticVar.h"
+
+1417362237 source:/mnt/hgfs/work/NewAccessServer_1.0.0nat/Store.cpp
+	"LocalVar.h"
+
+1398821750 source:/mnt/hgfs/work/NewAccessServer_1.0.0nat/StrUtility.cpp
+	"StrUtility.h"
+
+1417362177 source:/mnt/hgfs/work/NewAccessServer_1.0.0nat/Terminal.cpp
+	"Terminal.h"
+	"LocalVar.h"
+	"Global.h"
+
+1394443405 source:/mnt/hgfs/work/NewAccessServer_1.0.0nat/Termproxy.cpp
+	"Termproxy.h"
+
+1394443405 /mnt/hgfs/work/NewAccessServer_1.0.0nat/Termproxy.h
+	"Global.h"
+	"Terminal.h"
+
+1394443405 source:/mnt/hgfs/work/NewAccessServer_1.0.0nat/TyLog.cpp
+	"TyLog.h"
+	"Poco/AutoPtr.h"
+	"Poco/SplitterChannel.h"
+	"Poco/PatternFormatter.h"
+	"Poco/FileChannel.h"
+	"Poco/ConsoleChannel.h"
+	"Poco/FormattingChannel.h"
+
+1417413521 source:/mnt/hgfs/work/NewAccessServer_1.0.0nat/TyMain.cpp
+	"HeartManageTask.h"
+	"TyLog.h"
+	"Global.h"
+	"BussinessEvent.h"
+	"BussinessServer.h"
+	"AccessEvent.h"
+	"LocalVar.h"
+	<iostream>
+	"LogInfo.h"
+	"LogSys.h"
+	<unistd.h>
+
+1417420490 /mnt/hgfs/work/NewAccessServer_1.0.0nat/AccessEvent.h
+	"Global.h"
+	"GlobalVar.h"
+	"BussinessEvent.h"
+	"TyLog.h"
+	"NetUtility.h"
+	"Msghead.h"
+	"Handler.h"
+	"MsgDispatcher.h"
+
+1417362149 source:/mnt/hgfs/work/NewAccessServer_1.0.0nat/Usersession.cpp
+	"Usersession.h"
+	"LocalVar.h"
+
+1417588348 source:/mnt/hgfs/work/NewAccessServer_1.0.0nat/AccessEvent.cpp
+	"AccessEvent.h"
+	"LocalVar.h"
+	<iostream>
+	"AccessModule.h"
+	"LogSys.h"
+	"LogInfo.h"
+	"MsgHandler.h"
+
+1417749225 source:/mnt/hgfs/work/NewAccessServer_1.0.0nat/HdlConsole.cpp
+	"HdlConsole.h"
+	"AccessModule.h"
+	"LogInfo.h"
+	"LogSys.h"
+	"MsgHandler.h"
+
+1416992466 source:/mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/BussinessServer.cpp
+	"BussinessServer.h"
+
+1394443407 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/BussinessServer.h
+	"Global.h"
+	"MsgHandler.h"
+	"QueueTask.h"
+	"StaticVar.h"
+
+1417231368 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/Global.h
+	"Poco/HashMap.h"
+	"Poco/Mutex.h"
+	"Poco/ThreadPool.h"
+	"Poco/File.h"
+	"Poco/LocalDateTime.h"
+	"Poco/DateTimeFormatter.h"
+	"Poco/DateTimeFormat.h"
+	"Poco/Environment.h"
+	"Poco/Net/HTTPClientSession.h"
+	"Poco/Net/HTTPRequest.h"
+	"Poco/Net/HTTPResponse.h"
+	"Poco/StreamCopier.h"
+	"Poco/RWLock.h"
+	"Poco/Net/SocketAddress.h"
+	"Poco/Timespan.h"
+	"Poco/Net/Socket.h"
+	"Poco/Net/SocketReactor.h"
+	"Poco/Net/SocketAddress.h"
+	"Poco/Net/SocketAcceptor.h"
+	"Poco/Net/SocketConnector.h"
+	"Poco/Net/SocketNotification.h"
+	"Poco/Net/NetException.h"
+	"Poco/Observer.h"
+	"Poco/RefCountedObject.h"
+	"Poco/SingletonHolder.h"
+	"Poco/DateTime.h"
+	"Poco/Timer.h"
+	"Poco/Timestamp.h"
+	<time.h>
+	<list>
+	<set>
+	<deque>
+	<string>
+	<time.h>
+	<io.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<sys/stat.h>
+	<unistd.h>
+	<sys/time.h>
+	<sstream>
+	<stdlib.h>
+	<queue>
+	<vector>
+	<map>
+	<math.h>
+	<algorithm>
+	"Markup.h"
+
+1394443405 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/Markup.h
+	<string>
+	<string.h>
+
+1416558570 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/MsgHandler.h
+	"Global.h"
+	"Operator.h"
+	"StaticVar.h"
+
+1399618006 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/Operator.h
+	"Global.h"
+
+1394443405 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/StaticVar.h
+	"Global.h"
+	"Queue.h"
+	"Operator.h"
+
+1394443406 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/Queue.h
+	"Global.h"
+
+1394443405 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/QueueTask.h
+	"Global.h"
+	"Queue.h"
+	"Msghandler.h"
+	"BussinessEvent.h"
+
+1394443406 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/BussinessEvent.h
+	"Operator.h"
+
+1394443405 source:/mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/ConfigItem.cpp
+	"ConfigItem.h"
+
+1394443405 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/ConfigItem.h
+	"Global.h"
+	"StrUtility.h"
+	"define.h"
+
+1394443407 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/StrUtility.h
+	"Global.h"
+
+1417398870 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/define.h
+
+1416984830 source:/mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/Dispatch.cpp
+	"Dispatch.h"
+	"LocalVar.h"
+
+1416984738 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/Dispatch.h
+	"Global.h"
+	"SmartPtr_T.h"
+
+1394443407 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/SmartPtr_T.h
+	<assert.h>
+	<Poco/Mutex.h>
+
+1417333632 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/LocalVar.h
+	"Global.h"
+	"define.h"
+	"Queue.h"
+	"Msghead.h"
+	"TyLog.h"
+	"Terminal.h"
+	"Usersession.h"
+	"ConfigItem.h"
+	"HeartManageTask.h"
+	"Dispatch.h"
+	"Store.h"
+
+1415328932 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/Msghead.h
+	"define.h"
+	"Global.h"
+	"Const.h"
+
+1417364848 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/Const.h
+	"define.h"
+
+1414377474 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/TyLog.h
+	"Poco/Thread.h"
+	"Poco/Mutex.h"
+	"Poco/Logger.h"
+	"Poco/LogStream.h"
+	"Poco/Runnable.h"
+	<list>
+
+1417420479 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/Terminal.h
+	"Global.h"
+	"GlobalVar.h"
+	"SmartPtr_T.h"
+	"NetUtility.h"
+	"Device.h"
+
+1394443407 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/GlobalVar.h
+	"Global.h"
+	"define.h"
+	"Queue.h"
+	"Msghead.h"
+	"TyLog.h"
+
+1397812347 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/NetUtility.h
+	"Global.h"
+
+1417158961 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/NetUtility_ex.h
+	"Global.h"
+	"NetUtility.h"
+	"Msghead.h"
+	"define.h"
+
+1417420499 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/Usersession.h
+	"Global.h"
+	"GlobalVar.h"
+	"SmartPtr_T.h"
+	"NetUtility.h"
+	"Device.h"
+
+1417232947 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/HeartManageTask.h
+	"Global.h"
+	"Terminal.h"
+	"Markup.h"
+
+1417420510 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/Store.h
+	"Global.h"
+	"GlobalVar.h"
+	"SmartPtr_T.h"
+	"NetUtility.h"
+
+1416993836 source:/mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/GlobalVar.cpp
+	"GlobalVar.h"
+
+1417006809 source:/mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/Handler.cpp
+	"Handler.h"
+	"AccessModule.h"
+	"LocalVar.h"
+
+1417365067 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/Handler.h
+	"Msghead.h"
+	"Global.h"
+	"Device.h"
+
+1417420823 source:/mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/HdlDispatch.cpp
+	"HdlDispatch.h"
+	"MsgHandler.h"
+
+1417365000 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/HdlDispatch.h
+	"Global.h"
+	"Handler.h"
+	"Terminal.h"
+	"NetUtility.h"
+	"StrUtility.h"
+	"LocalVar.h"
+
+1417365067 source:/mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/HdlStore.cpp
+	"HdlStore.h"
+
+1417420842 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/HdlStore.h
+	"MsgDispatcher.h"
+	"Global.h"
+	"MsgHandler.h"
+	"NetUtility.h"
+	"LocalVar.h"
+
+1394443407 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/MsgDispatcher.h
+	"Global.h"
+	"Handler.h"
+
+1417420855 source:/mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/HdlTerminal.cpp
+	"HdlTerminal.h"
+	"AccessModule.h"
+	"LogInfo.h"
+	"LogSys.h"
+	"MsgHandler.h"
+
+1417365140 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/HdlTerminal.h
+	"MsgDispatcher.h"
+	"Global.h"
+	"StrUtility.h"
+	"LocalVar.h"
+
+1417335672 source:/mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/LocalVar.cpp
+	"LocalVar.h"
+	"NetUtility.h"
+
+1394443405 source:/mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/Markup.cpp
+	<stdio.h>
+	<string.h>
+	<errno.h>
+	"Markup.h"
+
+1417577942 source:/mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/MsgDispatcher.cpp
+	"MsgDispatcher.h"
+	"HdlTerminal.h"
+	"HdlConsole.h"
+	"HdlStore.h"
+	"HdlDispatch.h"
+
+1417365384 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/HdlConsole.h
+	"Global.h"
+	"Terminal.h"
+	"Usersession.h"
+	"MsgDispatcher.h"
+	"NetUtility.h"
+	"StrUtility.h"
+	"LocalVar.h"
+
+1417348921 source:/mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/MsgHandler.cpp
+	"MsgHandler.h"
+
+1395709653 source:/mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/NetUtility.cpp
+	"NetUtility.h"
+	"TyLog.h"
+	"GlobalVar.h"
+
+1417158994 source:/mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/NetUtility_ex.cpp
+	"NetUtility_ex.h"
+	"TyLog.h"
+	"GlobalVar.h"
+
+1417348882 source:/mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/QueueTask.cpp
+	"Queuetask.h"
+	"Operator.h"
+	<iostream>
+
+1394443405 source:/mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/StaticVar.cpp
+	"StaticVar.h"
+
+1417362237 source:/mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/Store.cpp
+	"LocalVar.h"
+
+1398821750 source:/mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/StrUtility.cpp
+	"StrUtility.h"
+
+1417362177 source:/mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/Terminal.cpp
+	"Terminal.h"
+	"LocalVar.h"
+	"Global.h"
+
+1394443405 source:/mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/Termproxy.cpp
+	"Termproxy.h"
+
+1394443405 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/Termproxy.h
+	"Global.h"
+	"Terminal.h"
+
+1394443405 source:/mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/TyLog.cpp
+	"TyLog.h"
+	"Poco/AutoPtr.h"
+	"Poco/SplitterChannel.h"
+	"Poco/PatternFormatter.h"
+	"Poco/FileChannel.h"
+	"Poco/ConsoleChannel.h"
+	"Poco/FormattingChannel.h"
+
+1417362149 source:/mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/Usersession.cpp
+	"Usersession.h"
+	"LocalVar.h"
+
+1417588348 source:/mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/AccessEvent.cpp
+	"AccessEvent.h"
+	"LocalVar.h"
+	<iostream>
+	"AccessModule.h"
+	"LogSys.h"
+	"LogInfo.h"
+	"MsgHandler.h"
+
+1417420490 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/AccessEvent.h
+	"Global.h"
+	"GlobalVar.h"
+	"BussinessEvent.h"
+	"TyLog.h"
+	"NetUtility.h"
+	"Msghead.h"
+	"Handler.h"
+	"MsgDispatcher.h"
+
+1417585132 source:/mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/HdlConsole.cpp
+	"HdlConsole.h"
+	"AccessModule.h"
+	"LogInfo.h"
+	"LogSys.h"
+	"MsgHandler.h"
+
+1417323042 source:/mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/HeartManageTask.cpp
+	"HeartManageTask.h"
+	"LocalVar.h"
+
+1417413521 source:/mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/TyMain.cpp
+	"HeartManageTask.h"
+	"TyLog.h"
+	"Global.h"
+	"BussinessEvent.h"
+	"BussinessServer.h"
+	"AccessEvent.h"
+	"LocalVar.h"
+	<iostream>
+	"LogInfo.h"
+	"LogSys.h"
+	<unistd.h>
+
+1416816919 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/Device.h
+	"Global.h"
+	"NetUtility.h"
+
+1417145491 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/AccessModule.h
+	"Global.h"
+	"Terminal.h"
+	"Dispatch.h"
+
+1417347450 source:/mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/AccessModule.cpp
+	"AccessModule.h"
+	"StrUtility.h"
+	"define.h"
+	"Global.h"
+
+1395280127 /mnt/hgfs/D/servers/StandaryLibrary/UtilityLibrary/include/Markup.h
+	<string>
+	<string.h>
+
+1411548182 /mnt/hgfs/D/servers/StandaryLibrary/UtilityLibrary/include/StrUtility.h
+	<iostream>
+	"Markup.h"
+	<map>
+	<deque>
+	<vector>
+
+1415070439 /mnt/hgfs/D/servers/StandaryLibrary/UtilityLibrary/include/NetUtility.h
+	"Poco/Timespan.h"
+	"Poco/Net/StreamSocket.h"
+	"Poco/Net/NetException.h"
+
+1416813611 /mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/LogInfo.h
+	<string>
+
+1415776428 /mnt/hgfs/D/servers/StandaryLibrary/UtilityLibrary/include/LogSys.h
+	"Poco/Format.h"
+	"Poco/Logger.h"
+	"Poco/SharedPtr.h"
+	"Poco/Mutex.h"
+	<map>
+
+1416813611 source:/mnt/hgfs/D/servers/NewAccessServer_1.0.0nat/LogInfo.cpp
+	<cstdlib>
+	"LogInfo.h"
+
+1417147475 source:/mnt/hgfs/D/servers/StandaryLibrary/UtilityLibrary/src/LogSys.cpp
+	"Poco/AutoPtr.h"
+	"Poco/FileChannel.h"
+	"Poco/ConsoleChannel.h"
+	"Poco/SplitterChannel.h"
+	"Poco/PatternFormatter.h"
+	"Poco/FormattingChannel.h"
+	"Poco/LocalDateTime.h"
+	"Poco/File.h"
+	"Poco/Path.h"
+	"LogSys.h"
+	"QueueChannel.h"
+
+1401440119 /mnt/hgfs/D/servers/StandaryLibrary/UtilityLibrary/include/QueueChannel.h
+	"Poco/Channel.h"
+	"Poco/AutoPtr.h"
+	"Poco/NotificationQueue.h"
+	"Poco/Runnable.h"
+	"Poco/Thread.h"
+
+1411612713 source:/mnt/hgfs/D/servers/StandaryLibrary/UtilityLibrary/src/Markup.cpp
+	<stdio.h>
+	<string.h>
+	<errno.h>
+	"Markup.h"
+
+1416473926 source:/mnt/hgfs/D/servers/StandaryLibrary/UtilityLibrary/src/NetUtility.cpp
+	"NetUtility.h"
+	<iostream>
+
+1411612696 source:/mnt/hgfs/D/servers/StandaryLibrary/UtilityLibrary/src/QueueChannel.cpp
+	"QueueChannel.h"
+	"Poco/Message.h"
+
+1417060516 source:/mnt/hgfs/D/servers/StandaryLibrary/UtilityLibrary/src/StrUtility.cpp
+	"StrUtility.h"
+	"Poco/StringTokenizer.h"
+
+1415861322 /mnt/hgfs/D/servers/StandaryLibrary/ServerLibrary/include/Queue.h
+	"Global.h"
+
+1410747160 /mnt/hgfs/D/servers/StandaryLibrary/ServerLibrary/include/Global.h
+	"Poco/HashMap.h"
+	"Poco/Mutex.h"
+	"Poco/ThreadPool.h"
+	"Poco/File.h"
+	"Poco/LocalDateTime.h"
+	"Poco/DateTimeFormatter.h"
+	"Poco/DateTimeFormat.h"
+	"Poco/Environment.h"
+	"Poco/Net/HTTPClientSession.h"
+	"Poco/Net/HTTPRequest.h"
+	"Poco/Net/HTTPResponse.h"
+	"Poco/StreamCopier.h"
+	"Poco/RWLock.h"
+	"Poco/Net/SocketAddress.h"
+	"Poco/Timespan.h"
+	"Poco/Net/Socket.h"
+	"Poco/Net/SocketReactor.h"
+	"Poco/Net/SocketAddress.h"
+	"Poco/Net/SocketAcceptor.h"
+	"Poco/Net/SocketConnector.h"
+	"Poco/Net/SocketNotification.h"
+	"Poco/Net/NetException.h"
+	"Poco/Observer.h"
+	"Poco/RefCountedObject.h"
+	"Poco/SingletonHolder.h"
+	"Poco/DateTime.h"
+	"Poco/Timer.h"
+	"Poco/Net/DatagramSocket.h"
+	"Poco/MD5Engine.h"
+	<time.h>
+	<list>
+	<set>
+	<deque>
+	<string>
+	<sstream>
+	<stdlib.h>
+	<queue>
+	<vector>
+	<map>
+	<math.h>
+	<algorithm>
+	<io.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<sys/stat.h>
+	<unistd.h>
+	<sys/time.h>
+
+1409310354 /mnt/hgfs/D/servers/StandaryLibrary/ServerLibrary/include/Operator.h
+	"Global.h"
+	"StandaryLibrary.h"
+
+1404349367 /mnt/hgfs/D/servers/StandaryLibrary/ServerLibrary/include/StandaryLibrary.h
+
+1393984283 /mnt/hgfs/D/servers/StandaryLibrary/ServerLibrary/include/BussinessEvent.h
+	"Operator.h"
+	"StandaryLibrary.h"
+
+1404350249 /mnt/hgfs/D/servers/StandaryLibrary/ServerLibrary/include/BussinessServer.h
+	"Global.h"
+	"MsgHandler.h"
+	"QueueTask.h"
+	"StaticVar.h"
+	"StandaryLibrary.h"
+
+1417365723 /mnt/hgfs/D/servers/StandaryLibrary/ServerLibrary/include/MsgHandler.h
+	"Global.h"
+	"Operator.h"
+	"StaticVar.h"
+	"StandaryLibrary.h"
+
+1409206963 /mnt/hgfs/D/servers/StandaryLibrary/ServerLibrary/include/StaticVar.h
+	"Global.h"
+	"Queue.h"
+	"Operator.h"
+	"StandaryLibrary.h"
+
+1404350249 /mnt/hgfs/D/servers/StandaryLibrary/ServerLibrary/include/QueueTask.h
+	"Global.h"
+	"Queue.h"
+	"MsgHandler.h"
+	"BussinessEvent.h"
+	"StandaryLibrary.h"
+
+1415069992 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/HashMap.h
+	"Poco/Foundation.h"
+	"Poco/LinearHashTable.h"
+	"Poco/Exception.h"
+	<utility>
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Foundation.h
+	"Poco/Config.h"
+	"Poco/Platform.h"
+	"Poco/Platform_WIN32.h"
+	"Poco/Platform_VMS.h"
+	"Poco/Platform_VX.h"
+	"Poco/Platform_POSIX.h"
+	"Poco/Bugcheck.h"
+	"Poco/Types.h"
+	<string>
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Config.h
+
+1415069990 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Platform.h
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Platform_WIN32.h
+
+1415069990 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Platform_VMS.h
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Platform_VX.h
+
+1415069992 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Platform_POSIX.h
+
+1415069990 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Bugcheck.h
+	"Poco/Foundation.h"
+	<string>
+	<iostream>
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Types.h
+	"Poco/Foundation.h"
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/LinearHashTable.h
+	"Poco/Foundation.h"
+	"Poco/Hash.h"
+	<functional>
+	<algorithm>
+	<vector>
+	<utility>
+	<cstddef>
+
+1415069990 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Hash.h
+	"Poco/Foundation.h"
+	<cstddef>
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Exception.h
+	"Poco/Foundation.h"
+	<stdexcept>
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Mutex.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/ScopedLock.h"
+	"Poco/Mutex_WINCE.h"
+	"Poco/Mutex_WIN32.h"
+	"Poco/Mutex_VX.h"
+	"Poco/Mutex_POSIX.h"
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/ScopedLock.h
+	"Poco/Foundation.h"
+
+1415069990 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Mutex_WINCE.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/UnWindows.h"
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/UnWindows.h
+	<windows.h>
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Mutex_WIN32.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/UnWindows.h"
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Mutex_VX.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	<semLib.h>
+	<errno.h>
+
+1415069990 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Mutex_POSIX.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	<pthread.h>
+	<errno.h>
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/ThreadPool.h
+	"Poco/Foundation.h"
+	"Poco/Thread.h"
+	"Poco/Mutex.h"
+	<vector>
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Thread.h
+	"Poco/Foundation.h"
+	"Poco/Mutex.h"
+	"Poco/Thread_WINCE.h"
+	"Poco/Thread_WIN32.h"
+	"Poco/Thread_VX.h"
+	"Poco/Thread_POSIX.h"
+
+1415069990 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Thread_WINCE.h
+	"Poco/Foundation.h"
+	"Poco/Runnable.h"
+	"Poco/UnWindows.h"
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Runnable.h
+	"Poco/Foundation.h"
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Thread_WIN32.h
+	"Poco/Foundation.h"
+	"Poco/Runnable.h"
+	"Poco/UnWindows.h"
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Thread_VX.h
+	"Poco/Foundation.h"
+	"Poco/Runnable.h"
+	"Poco/SignalHandler.h"
+	"Poco/Event.h"
+	"Poco/RefCountedObject.h"
+	"Poco/AutoPtr.h"
+	<taskLib.h>
+	<taskVarLib.h>
+
+1415069989 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/SignalHandler.h
+	"Poco/Foundation.h"
+	<vector>
+	<setjmp.h>
+
+1415069990 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Event.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/Event_WIN32.h"
+	"Poco/Event_VX.h"
+	"Poco/Event_POSIX.h"
+
+1415069990 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Event_WIN32.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/UnWindows.h"
+
+1415069989 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Event_VX.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	<semLib.h>
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Event_POSIX.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	<pthread.h>
+	<errno.h>
+
+1415069990 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/RefCountedObject.h
+	"Poco/Foundation.h"
+	"Poco/AtomicCounter.h"
+
+1415069992 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/AtomicCounter.h
+	"Poco/Foundation.h"
+	"Poco/UnWindows.h"
+	<libkern/OSAtomic.h>
+	"Poco/Mutex.h"
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/AutoPtr.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	<algorithm>
+
+1415069990 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Thread_POSIX.h
+	"Poco/Foundation.h"
+	"Poco/Runnable.h"
+	"Poco/SignalHandler.h"
+	"Poco/Event.h"
+	"Poco/RefCountedObject.h"
+	"Poco/AutoPtr.h"
+	<pthread.h>
+	<limits.h>
+	<sys/select.h>
+	<errno.h>
+	<cstring>
+
+1415069992 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/File.h
+	"Poco/Foundation.h"
+	"Poco/Timestamp.h"
+	<vector>
+	"File_WINCE.h"
+	"Poco/File_WIN32U.h"
+	"Poco/File_WIN32.h"
+	"Poco/File_VX.h"
+	"Poco/File_UNIX.h"
+	"Poco/File_VMS.h"
+
+1415069990 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Timestamp.h
+	"Poco/Foundation.h"
+	<ctime>
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/File_WINCE.h
+	"Poco/Foundation.h"
+	"Poco/Timestamp.h"
+
+1415069992 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/File_WIN32U.h
+	"Poco/Foundation.h"
+	"Poco/Timestamp.h"
+
+1415069989 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/File_WIN32.h
+	"Poco/Foundation.h"
+	"Poco/Timestamp.h"
+
+1415069990 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/File_VX.h
+	"Poco/Foundation.h"
+
+1415069989 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/File_UNIX.h
+	"Poco/Foundation.h"
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/File_VMS.h
+	"Poco/Foundation.h"
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/LocalDateTime.h
+	"Poco/Foundation.h"
+	"Poco/DateTime.h"
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/DateTime.h
+	"Poco/Foundation.h"
+	"Poco/Timestamp.h"
+	"Poco/Timespan.h"
+
+1415069992 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Timespan.h
+	"Poco/Foundation.h"
+	"Poco/Timestamp.h"
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/DateTimeFormatter.h
+	"Poco/Foundation.h"
+	"Poco/DateTime.h"
+	"Poco/LocalDateTime.h"
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/DateTimeFormat.h
+	"Poco/Foundation.h"
+
+1415069992 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Environment.h
+	"Poco/Foundation.h"
+
+1415069971 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Net/include/Poco/Net/HTTPClientSession.h
+	"Poco/Net/Net.h"
+	"Poco/Net/HTTPSession.h"
+	"Poco/Net/SocketAddress.h"
+	"Poco/SharedPtr.h"
+	<istream>
+	<ostream>
+
+1415069972 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Net/include/Poco/Net/Net.h
+	"Poco/Foundation.h"
+
+1415069971 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Net/include/Poco/Net/HTTPSession.h
+	"Poco/Net/Net.h"
+	"Poco/Net/StreamSocket.h"
+	"Poco/Timespan.h"
+	"Poco/Exception.h"
+	"Poco/Any.h"
+	<ios>
+
+1415069971 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Net/include/Poco/Net/StreamSocket.h
+	"Poco/Net/Net.h"
+	"Poco/Net/Socket.h"
+
+1415069972 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Net/include/Poco/Net/Socket.h
+	"Poco/Net/Net.h"
+	"Poco/Net/SocketImpl.h"
+	<vector>
+
+1415069971 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Net/include/Poco/Net/SocketImpl.h
+	"Poco/Net/Net.h"
+	"Poco/Net/SocketDefs.h"
+	"Poco/Net/SocketAddress.h"
+	"Poco/RefCountedObject.h"
+	"Poco/Timespan.h"
+
+1415069972 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Net/include/Poco/Net/SocketDefs.h
+	"Poco/UnWindows.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+	<hostLib.h>
+	<ifLib.h>
+	<inetLib.h>
+	<ioLib.h>
+	<resolvLib.h>
+	<types.h>
+	<socket.h>
+	<netinet/tcp.h>
+	<unistd.h>
+	<errno.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/select.h>
+	<sys/ioctl.h>
+	<inet.h>
+	<arpa/inet.h>
+	<netinet/in.h>
+	<netinet/tcp.h>
+	<netdb.h>
+	<net/if.h>
+	<sys/sockio.h>
+	<sys/filio.h>
+
+1415069971 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Net/include/Poco/Net/SocketAddress.h
+	"Poco/Net/Net.h"
+	"Poco/Net/SocketDefs.h"
+	"Poco/Net/IPAddress.h"
+
+1415069971 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Net/include/Poco/Net/IPAddress.h
+	"Poco/Net/Net.h"
+	"Poco/Net/SocketDefs.h"
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Any.h
+	"Poco/Exception.h"
+	<algorithm>
+	<typeinfo>
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/SharedPtr.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/AtomicCounter.h"
+	<algorithm>
+
+1415069972 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Net/include/Poco/Net/HTTPRequest.h
+	"Poco/Net/Net.h"
+	"Poco/Net/HTTPMessage.h"
+
+1415069971 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Net/include/Poco/Net/HTTPMessage.h
+	"Poco/Net/Net.h"
+	"Poco/Net/MessageHeader.h"
+
+1415069971 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Net/include/Poco/Net/MessageHeader.h
+	"Poco/Net/Net.h"
+	"Poco/Net/NameValueCollection.h"
+	<ostream>
+	<istream>
+	<vector>
+
+1415069971 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Net/include/Poco/Net/NameValueCollection.h
+	"Poco/Net/Net.h"
+	"Poco/String.h"
+	<map>
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/String.h
+	"Poco/Foundation.h"
+	"Poco/Ascii.h"
+	<cstring>
+
+1415069992 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Ascii.h
+	"Poco/Foundation.h"
+
+1415069971 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Net/include/Poco/Net/HTTPResponse.h
+	"Poco/Net/Net.h"
+	"Poco/Net/HTTPMessage.h"
+	"Poco/Net/HTTPCookie.h"
+	"Poco/Timestamp.h"
+	<vector>
+
+1415069971 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Net/include/Poco/Net/HTTPCookie.h
+	"Poco/Net/Net.h"
+
+1415069992 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/StreamCopier.h
+	"Poco/Foundation.h"
+	<istream>
+	<ostream>
+	<cstddef>
+
+1415069990 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/RWLock.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/RWLock_WINCE.h"
+	"Poco/RWLock_WIN32.h"
+	"Poco/RWLock_Android.h"
+	"Poco/RWLock_VX.h"
+	"Poco/RWLock_POSIX.h"
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/RWLock_WINCE.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/UnWindows.h"
+
+1415069989 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/RWLock_WIN32.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	"Poco/UnWindows.h"
+
+1415069992 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/RWLock_Android.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	<pthread.h>
+	<errno.h>
+
+1415069992 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/RWLock_VX.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	<pthread.h>
+	<errno.h>
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/RWLock_POSIX.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	<pthread.h>
+	<errno.h>
+
+1415069971 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Net/include/Poco/Net/SocketReactor.h
+	"Poco/Net/Net.h"
+	"Poco/Net/Socket.h"
+	"Poco/Runnable.h"
+	"Poco/Timespan.h"
+	"Poco/Observer.h"
+	"Poco/AutoPtr.h"
+	<map>
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Observer.h
+	"Poco/Foundation.h"
+	"Poco/AbstractObserver.h"
+	"Poco/Mutex.h"
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/AbstractObserver.h
+	"Poco/Foundation.h"
+	"Poco/Notification.h"
+
+1415069990 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Notification.h
+	"Poco/Foundation.h"
+	"Poco/Mutex.h"
+	"Poco/RefCountedObject.h"
+	"Poco/AutoPtr.h"
+
+1415069971 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Net/include/Poco/Net/SocketAcceptor.h
+	"Poco/Net/Net.h"
+	"Poco/Net/SocketNotification.h"
+	"Poco/Net/ServerSocket.h"
+	"Poco/Net/StreamSocket.h"
+	"Poco/Observer.h"
+
+1415069971 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Net/include/Poco/Net/SocketNotification.h
+	"Poco/Net/Net.h"
+	"Poco/Net/Socket.h"
+	"Poco/Notification.h"
+
+1415069971 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Net/include/Poco/Net/ServerSocket.h
+	"Poco/Net/Net.h"
+	"Poco/Net/Socket.h"
+	"Poco/Net/StreamSocket.h"
+
+1415069971 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Net/include/Poco/Net/SocketConnector.h
+	"Poco/Net/Net.h"
+	"Poco/Net/SocketNotification.h"
+	"Poco/Net/SocketAddress.h"
+	"Poco/Net/StreamSocket.h"
+	"Poco/Observer.h"
+
+1415069971 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Net/include/Poco/Net/NetException.h
+	"Poco/Net/Net.h"
+	"Poco/Exception.h"
+
+1415069989 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/SingletonHolder.h
+	"Poco/Foundation.h"
+	"Poco/Mutex.h"
+
+1415069992 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Timer.h
+	"Poco/Foundation.h"
+	"Poco/Runnable.h"
+	"Poco/Mutex.h"
+	"Poco/Event.h"
+	"Poco/Thread.h"
+	"Poco/Timestamp.h"
+
+1415069971 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Net/include/Poco/Net/DatagramSocket.h
+	"Poco/Net/Net.h"
+	"Poco/Net/Socket.h"
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/MD5Engine.h
+	"Poco/Foundation.h"
+	"Poco/DigestEngine.h"
+
+1415069990 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/DigestEngine.h
+	"Poco/Foundation.h"
+	<vector>
+
+1415069990 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Logger.h
+	"Poco/Foundation.h"
+	"Poco/Channel.h"
+	"Poco/Message.h"
+	"Poco/Format.h"
+	<map>
+	<vector>
+	<cstddef>
+
+1415069990 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Channel.h
+	"Poco/Foundation.h"
+	"Poco/Configurable.h"
+	"Poco/Mutex.h"
+	"Poco/RefCountedObject.h"
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Configurable.h
+	"Poco/Foundation.h"
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Message.h
+	"Poco/Foundation.h"
+	"Poco/Timestamp.h"
+	<map>
+
+1415069989 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Format.h
+	"Poco/Foundation.h"
+	"Poco/Any.h"
+	<vector>
+
+1415069992 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/LogStream.h
+	"Poco/Foundation.h"
+	"Poco/Logger.h"
+	"Poco/UnbufferedStreamBuf.h"
+	<istream>
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/UnbufferedStreamBuf.h
+	"Poco/Foundation.h"
+	"Poco/StreamUtil.h"
+	<streambuf>
+	<iosfwd>
+	<ios>
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/StreamUtil.h
+	"Poco/Foundation.h"
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/SplitterChannel.h
+	"Poco/Foundation.h"
+	"Poco/Channel.h"
+	"Poco/Mutex.h"
+	<vector>
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/PatternFormatter.h
+	"Poco/Foundation.h"
+	"Poco/Formatter.h"
+	"Poco/Message.h"
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Formatter.h
+	"Poco/Foundation.h"
+	"Poco/Configurable.h"
+	"Poco/RefCountedObject.h"
+
+1415069992 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/FileChannel.h
+	"Poco/Foundation.h"
+	"Poco/Channel.h"
+	"Poco/Timestamp.h"
+	"Poco/Mutex.h"
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/ConsoleChannel.h
+	"Poco/Foundation.h"
+	"Poco/Channel.h"
+	"Poco/Mutex.h"
+	<ostream>
+
+1415069989 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/FormattingChannel.h
+	"Poco/Foundation.h"
+	"Poco/Channel.h"
+
+1415069992 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/Path.h
+	"Poco/Foundation.h"
+	<vector>
+
+1415069989 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/NotificationQueue.h
+	"Poco/Foundation.h"
+	"Poco/Notification.h"
+	"Poco/Mutex.h"
+	"Poco/Event.h"
+	<deque>
+
+1415069991 /mnt/hgfs/D/servers/StandaryLibrary/poco-linux-1.4.6p2/Foundation/include/Poco/StringTokenizer.h
+	"Poco/Foundation.h"
+	"Poco/Exception.h"
+	<vector>
+	<cstddef>
+
+1416532050 /root/svn/platform/StandaryLibrary/ServerLibrary/include/Queue.h
+	"Global.h"
+
+1417515788 /root/svn/platform/StandaryLibrary/ServerLibrary/include/Global.h
+	"Poco/HashMap.h"
+	"Poco/Mutex.h"
+	"Poco/ThreadPool.h"
+	"Poco/File.h"
+	"Poco/LocalDateTime.h"
+	"Poco/DateTimeFormatter.h"
+	"Poco/DateTimeFormat.h"
+	"Poco/Environment.h"
+	"Poco/Net/HTTPClientSession.h"
+	"Poco/Net/HTTPRequest.h"
+	"Poco/Net/HTTPResponse.h"
+	"Poco/StreamCopier.h"
+	"Poco/RWLock.h"
+	"Poco/Net/SocketAddress.h"
+	"Poco/Timespan.h"
+	"Poco/Net/Socket.h"
+	"Poco/Net/SocketReactor.h"
+	"Poco/Net/SocketAddress.h"
+	"Poco/Net/SocketAcceptor.h"
+	"Poco/Net/SocketConnector.h"
+	"Poco/Net/SocketNotification.h"
+	"Poco/Net/NetException.h"
+	"Poco/Observer.h"
+	"Poco/RefCountedObject.h"
+	"Poco/SingletonHolder.h"
+	"Poco/DateTime.h"
+	"Poco/Timer.h"
+	"Poco/Net/DatagramSocket.h"
+	"Poco/MD5Engine.h"
+	"Poco/Process.h"
+	<time.h>
+	<list>
+	<set>
+	<deque>
+	<string>
+	<sstream>
+	<stdlib.h>
+	<queue>
+	<vector>
+	<map>
+	<math.h>
+	<algorithm>
+	<io.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<sys/stat.h>
+	<unistd.h>
+	<sys/time.h>
+
+1416532050 /root/svn/platform/StandaryLibrary/ServerLibrary/include/BussinessEvent.h
+	"Operator.h"
+	"StandaryLibrary.h"
+
+1416532050 /root/svn/platform/StandaryLibrary/ServerLibrary/include/Operator.h
+	"Global.h"
+	"StandaryLibrary.h"
+
+1416532050 /root/svn/platform/StandaryLibrary/ServerLibrary/include/StandaryLibrary.h
+
+1416823969 /root/svn/platform/StandaryLibrary/ServerLibrary/include/BussinessServer.h
+	"Global.h"
+	"MsgHandler.h"
+	"QueueTask.h"
+	"StaticVar.h"
+	"StandaryLibrary.h"
+
+1417484313 /root/svn/platform/StandaryLibrary/ServerLibrary/include/MsgHandler.h
+	"Global.h"
+	"Operator.h"
+	"StaticVar.h"
+	"StandaryLibrary.h"
+
+1416532050 /root/svn/platform/StandaryLibrary/ServerLibrary/include/StaticVar.h
+	"Global.h"
+	"Queue.h"
+	"Operator.h"
+	"StandaryLibrary.h"
+
+1416532050 /root/svn/platform/StandaryLibrary/ServerLibrary/include/QueueTask.h
+	"Global.h"
+	"Queue.h"
+	"MsgHandler.h"
+	"BussinessEvent.h"
+	"StandaryLibrary.h"
+
+1395280127 /mnt/hgfs/work/StandaryLibrary/UtilityLibrary/include/Markup.h
+	<string>
+	<string.h>
+
+1417742976 /mnt/hgfs/work/StandaryLibrary/UtilityLibrary/include/NetUtility.h
+	"Poco/Timespan.h"
+	"Poco/Net/StreamSocket.h"
+	"Poco/Net/NetException.h"
+
+1416816919 /mnt/hgfs/work/NewAccessServer_1.0.0nat/Device.h
+	"Global.h"
+	"NetUtility.h"
+
+1411548182 /mnt/hgfs/work/StandaryLibrary/UtilityLibrary/include/StrUtility.h
+	<iostream>
+	"Markup.h"
+	<map>
+	<deque>
+	<vector>
+
+1417145491 /mnt/hgfs/work/NewAccessServer_1.0.0nat/AccessModule.h
+	"Global.h"
+	"Terminal.h"
+	"Dispatch.h"
+
+1417743005 /mnt/hgfs/work/StandaryLibrary/UtilityLibrary/include/LogSys.h
+	"Poco/Format.h"
+	"Poco/Logger.h"
+	"Poco/SharedPtr.h"
+	"Poco/Mutex.h"
+	<map>
+
+1416813611 /mnt/hgfs/work/NewAccessServer_1.0.0nat/LogInfo.h
+	<string>
+
+1417347450 source:/mnt/hgfs/work/NewAccessServer_1.0.0nat/AccessModule.cpp
+	"AccessModule.h"
+	"StrUtility.h"
+	"define.h"
+	"Global.h"
+
+1416813611 source:/mnt/hgfs/work/NewAccessServer_1.0.0nat/LogInfo.cpp
+	<cstdlib>
+	"LogInfo.h"
+
+1411612713 source:/mnt/hgfs/work/StandaryLibrary/UtilityLibrary/src/StrUtility.cpp
+	"StrUtility.h"
+
+1415861322 /mnt/hgfs/work/StandaryLibrary/ServerLibrary/include/Queue.h
+	"Global.h"
+
+1417744249 /mnt/hgfs/work/StandaryLibrary/ServerLibrary/include/Global.h
+	"Poco/HashMap.h"
+	"Poco/Mutex.h"
+	"Poco/ThreadPool.h"
+	"Poco/File.h"
+	"Poco/LocalDateTime.h"
+	"Poco/DateTimeFormatter.h"
+	"Poco/DateTimeFormat.h"
+	"Poco/Environment.h"
+	"Poco/Net/HTTPClientSession.h"
+	"Poco/Net/HTTPRequest.h"
+	"Poco/Net/HTTPResponse.h"
+	"Poco/StreamCopier.h"
+	"Poco/RWLock.h"
+	"Poco/Net/SocketAddress.h"
+	"Poco/Timespan.h"
+	"Poco/Net/Socket.h"
+	"Poco/Net/SocketReactor.h"
+	"Poco/Net/SocketAddress.h"
+	"Poco/Net/SocketAcceptor.h"
+	"Poco/Net/SocketConnector.h"
+	"Poco/Net/SocketNotification.h"
+	"Poco/Net/NetException.h"
+	"Poco/Observer.h"
+	"Poco/RefCountedObject.h"
+	"Poco/SingletonHolder.h"
+	"Poco/DateTime.h"
+	"Poco/Timer.h"
+	"Poco/Net/DatagramSocket.h"
+	"Poco/MD5Engine.h"
+	"Poco/Process.h"
+	<time.h>
+	<list>
+	<set>
+	<deque>
+	<string>
+	<sstream>
+	<stdlib.h>
+	<queue>
+	<vector>
+	<map>
+	<math.h>
+	<algorithm>
+	<io.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<sys/stat.h>
+	<unistd.h>
+	<sys/time.h>
+
+1409310354 /mnt/hgfs/work/StandaryLibrary/ServerLibrary/include/Operator.h
+	"Global.h"
+	"StandaryLibrary.h"
+
+1404349367 /mnt/hgfs/work/StandaryLibrary/ServerLibrary/include/StandaryLibrary.h
+
+1411088068 /mnt/hgfs/work/StandaryLibrary/ServerLibrary/include/MsgHandler.h
+	"Global.h"
+	"Operator.h"
+	"StaticVar.h"
+	"StandaryLibrary.h"
+
+1409206963 /mnt/hgfs/work/StandaryLibrary/ServerLibrary/include/StaticVar.h
+	"Global.h"
+	"Queue.h"
+	"Operator.h"
+	"StandaryLibrary.h"
+
+1404350249 /mnt/hgfs/work/StandaryLibrary/ServerLibrary/include/QueueTask.h
+	"Global.h"
+	"Queue.h"
+	"MsgHandler.h"
+	"BussinessEvent.h"
+	"StandaryLibrary.h"
+
+1393984283 /mnt/hgfs/work/StandaryLibrary/ServerLibrary/include/BussinessEvent.h
+	"Operator.h"
+	"StandaryLibrary.h"
+
+1417742901 source:/mnt/hgfs/work/StandaryLibrary/UtilityLibrary/src/LogSys.cpp
+	"Poco/AutoPtr.h"
+	"Poco/FileChannel.h"
+	"Poco/ConsoleChannel.h"
+	"Poco/SplitterChannel.h"
+	"Poco/PatternFormatter.h"
+	"Poco/FormattingChannel.h"
+	"Poco/LocalDateTime.h"
+	"Poco/File.h"
+	"Poco/Path.h"
+	"LogSys.h"
+	"QueueChannel.h"
+
+1401440119 /mnt/hgfs/work/StandaryLibrary/UtilityLibrary/include/QueueChannel.h
+	"Poco/Channel.h"
+	"Poco/AutoPtr.h"
+	"Poco/NotificationQueue.h"
+	"Poco/Runnable.h"
+	"Poco/Thread.h"
+
+1417742901 source:/mnt/hgfs/work/StandaryLibrary/UtilityLibrary/src/Markup.cpp
+	<stdio.h>
+	<string.h>
+	<errno.h>
+	"Markup.h"
+
+1417742919 source:/mnt/hgfs/work/StandaryLibrary/UtilityLibrary/src/NetUtility.cpp
+	"NetUtility.h"
+	<iostream>
+
+1417742919 source:/mnt/hgfs/work/StandaryLibrary/UtilityLibrary/src/QueueChannel.cpp
+	"QueueChannel.h"
+	"Poco/Message.h"
+
+1418190527 source:/mnt/hgfs/work/NewAccessServer_1.0.0/AccessEvent.cpp
+	"AccessEvent.h"
+	"LocalVar.h"
+	<iostream>
+	"AccessModule.h"
+	"LogSys.h"
+	"LogInfo.h"
+	"MsgHandler.h"
+
+1418190527 /mnt/hgfs/work/NewAccessServer_1.0.0/AccessEvent.h
+	"Global.h"
+	"BussinessEvent.h"
+	"NetUtility.h"
+	"Msghead.h"
+	"Handler.h"
+	"MsgDispatcher.h"
+
+1417742976 /mnt/hgfs/work/StandaryLibrary/UtilityLibrary/include/Global.h
+	"Poco/HashMap.h"
+	"Poco/Mutex.h"
+	"Poco/ThreadPool.h"
+	"Poco/File.h"
+	"Poco/LocalDateTime.h"
+	"Poco/DateTimeFormatter.h"
+	"Poco/DateTimeFormat.h"
+	"Poco/Environment.h"
+	"Poco/Net/HTTPClientSession.h"
+	"Poco/Net/HTTPRequest.h"
+	"Poco/Net/HTTPResponse.h"
+	"Poco/StreamCopier.h"
+	"Poco/RWLock.h"
+	"Poco/Net/SocketAddress.h"
+	"Poco/Timespan.h"
+	"Poco/Net/Socket.h"
+	"Poco/Net/SocketReactor.h"
+	"Poco/Net/SocketAddress.h"
+	"Poco/Net/SocketAcceptor.h"
+	"Poco/Net/SocketConnector.h"
+	"Poco/Net/SocketNotification.h"
+	"Poco/Net/NetException.h"
+	"Poco/Observer.h"
+	"Poco/RefCountedObject.h"
+	"Poco/SingletonHolder.h"
+	"Poco/DateTime.h"
+	"Poco/Timer.h"
+	<time.h>
+	<list>
+	<set>
+	<deque>
+	<string>
+	<sstream>
+	<stdlib.h>
+	<queue>
+	<vector>
+	<map>
+	<math.h>
+	<algorithm>
+	<io.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<sys/stat.h>
+	<unistd.h>
+	<sys/time.h>
+
+1418190527 /mnt/hgfs/work/NewAccessServer_1.0.0/BussinessEvent.h
+	"Operator.h"
+
+1418190527 /mnt/hgfs/work/NewAccessServer_1.0.0/Msghead.h
+	"define.h"
+	"Global.h"
+	"Const.h"
+
+1418345343 /mnt/hgfs/work/NewAccessServer_1.0.0/define.h
+
+1418190527 /mnt/hgfs/work/NewAccessServer_1.0.0/Const.h
+	"define.h"
+
+1418190527 /mnt/hgfs/work/NewAccessServer_1.0.0/Handler.h
+	"Msghead.h"
+	"Global.h"
+	"Device.h"
+
+1418190527 /mnt/hgfs/work/NewAccessServer_1.0.0/Device.h
+	"Global.h"
+	"NetUtility.h"
+
+1418190527 /mnt/hgfs/work/NewAccessServer_1.0.0/MsgDispatcher.h
+	"Global.h"
+	"Handler.h"
+
+1418190527 /mnt/hgfs/work/NewAccessServer_1.0.0/LocalVar.h
+	"Global.h"
+	"define.h"
+	"Queue.h"
+	"Msghead.h"
+	"Terminal.h"
+	"Usersession.h"
+	"ConfigItem.h"
+	"AlarmTask.h"
+	"Store.h"
+
+1418190527 /mnt/hgfs/work/NewAccessServer_1.0.0/Terminal.h
+	"Global.h"
+	"SmartPtr_T.h"
+	"NetUtility.h"
+	"Device.h"
+
+1418190527 /mnt/hgfs/work/NewAccessServer_1.0.0/SmartPtr_T.h
+	<assert.h>
+	<Poco/Mutex.h>
+
+1418190528 /mnt/hgfs/work/NewAccessServer_1.0.0/Usersession.h
+	"Global.h"
+	"SmartPtr_T.h"
+	"NetUtility.h"
+	"Device.h"
+
+1418190528 /mnt/hgfs/work/NewAccessServer_1.0.0/ConfigItem.h
+	"Global.h"
+	"StrUtility.h"
+	"define.h"
+
+1418190528 /mnt/hgfs/work/NewAccessServer_1.0.0/AlarmTask.h
+	"Global.h"
+	"Markup.h"
+
+1418190527 /mnt/hgfs/work/NewAccessServer_1.0.0/Store.h
+	"Global.h"
+	"SmartPtr_T.h"
+	"NetUtility.h"
+
+1418190527 /mnt/hgfs/work/NewAccessServer_1.0.0/AccessModule.h
+	"Global.h"
+	"Terminal.h"
+
+1418190527 /mnt/hgfs/work/NewAccessServer_1.0.0/LogInfo.h
+	<string>
+
+1418190527 source:/mnt/hgfs/work/NewAccessServer_1.0.0/AccessModule.cpp
+	"AccessModule.h"
+	"StrUtility.h"
+	"define.h"
+	"Global.h"
+	"Const.h"
+
+1418190527 source:/mnt/hgfs/work/NewAccessServer_1.0.0/AlarmTask.cpp
+	"AlarmTask.h"
+	"LocalVar.h"
+
+1418190527 source:/mnt/hgfs/work/NewAccessServer_1.0.0/ConfigItem.cpp
+	"ConfigItem.h"
+
+1418190528 source:/mnt/hgfs/work/NewAccessServer_1.0.0/Handler.cpp
+	"Handler.h"
+	"AccessModule.h"
+	"LocalVar.h"
+
+1418964734 source:/mnt/hgfs/work/NewAccessServer_1.0.0/HdlConsole.cpp
+	"HdlConsole.h"
+	"AccessModule.h"
+	"LogInfo.h"
+	"LogSys.h"
+	"MsgHandler.h"
+
+1418260620 /mnt/hgfs/work/NewAccessServer_1.0.0/HdlConsole.h
+	"Global.h"
+	"Terminal.h"
+	"Usersession.h"
+	"MsgDispatcher.h"
+	"NetUtility.h"
+	"StrUtility.h"
+	"LocalVar.h"
+
+1418264888 source:/mnt/hgfs/work/NewAccessServer_1.0.0/HdlStore.cpp
+	"HdlStore.h"
+	"LogSys.h"
+	"LogInfo.h"
+
+1418190528 /mnt/hgfs/work/NewAccessServer_1.0.0/HdlStore.h
+	"MsgDispatcher.h"
+	"Global.h"
+	"MsgHandler.h"
+	"NetUtility.h"
+	"LocalVar.h"
+
+1418965103 source:/mnt/hgfs/work/NewAccessServer_1.0.0/HdlTerminal.cpp
+	"HdlTerminal.h"
+	"AccessModule.h"
+	"LogInfo.h"
+	"LogSys.h"
+	"MsgHandler.h"
+
+1418190528 /mnt/hgfs/work/NewAccessServer_1.0.0/HdlTerminal.h
+	"MsgDispatcher.h"
+	"Global.h"
+	"StrUtility.h"
+	"LocalVar.h"
+
+1418629890 source:/mnt/hgfs/work/NewAccessServer_1.0.0/LocalVar.cpp
+	"LocalVar.h"
+	"NetUtility.h"
+	"LogSys.h"
+	"LogInfo.h"
+
+1418190527 source:/mnt/hgfs/work/NewAccessServer_1.0.0/LogInfo.cpp
+	"LogInfo.h"
+
+1418345288 source:/mnt/hgfs/work/NewAccessServer_1.0.0/MsgDispatcher.cpp
+	"MsgDispatcher.h"
+	"HdlTerminal.h"
+	"HdlConsole.h"
+	"HdlStore.h"
+
+1418190528 source:/mnt/hgfs/work/NewAccessServer_1.0.0/Store.cpp
+	"LocalVar.h"
+
+1418190528 source:/mnt/hgfs/work/NewAccessServer_1.0.0/Terminal.cpp
+	"Terminal.h"
+	"LocalVar.h"
+	"Global.h"
+
+1418190527 source:/mnt/hgfs/work/NewAccessServer_1.0.0/TyMain.cpp
+	"AlarmTask.h"
+	"Global.h"
+	"BussinessEvent.h"
+	"BussinessServer.h"
+	"AccessEvent.h"
+	"LocalVar.h"
+	<iostream>
+	"LogInfo.h"
+	"LogSys.h"
+	<unistd.h>
+
+1418190528 /mnt/hgfs/work/NewAccessServer_1.0.0/BussinessServer.h
+	"Global.h"
+	"MsgHandler.h"
+	"QueueTask.h"
+	"StaticVar.h"
+
+1418190527 source:/mnt/hgfs/work/NewAccessServer_1.0.0/Usersession.cpp
+	"Usersession.h"
+	"LocalVar.h"
+
