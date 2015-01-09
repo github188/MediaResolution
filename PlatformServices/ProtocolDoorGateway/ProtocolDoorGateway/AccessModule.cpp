@@ -123,7 +123,7 @@ void AccessModule::GetTicket( char * ticket, int length)
 	ticket[length - 1] = 0;
 }
 
-bool AccessModule::HttpPost(int msg_id, string msg, std::string &res)
+bool AccessModule::HttpPost(string url, string message, std::string &res)
 {
 	try
 	{
@@ -131,20 +131,13 @@ bool AccessModule::HttpPost(int msg_id, string msg, std::string &res)
 		Poco::Net::HTTPClientSession session(address);
 		Poco::Timespan ts(3 * 1000 * 1000);
 		session.setTimeout(ts);
-		Poco::Net::HTTPRequest request( Poco::Net::HTTPRequest::HTTP_POST,/*CMSURLPATH*/"");
+
+		Poco::Net::HTTPRequest request( Poco::Net::HTTPRequest::HTTP_GET, url + message);
 		request.setHost(config_.center_ip_, config_.center_port_);
 		request.setContentType("application/x-www-form-urlencoded");
 		request.setVersion("HTTP/1.1");
 
-		char buf[256] = {0};
-		snprintf(buf, 256, "messageId=%d&accessId=%s&xml=", msg_id, config_.local_ip_.c_str());
-
-		std::string protocol;
-		protocol.append(buf);
-		protocol.append(msg);
-
-		request.setContentLength(protocol.length());
-		session.sendRequest(request) << protocol;
+		session.sendRequest(request);
 
 		Poco::Net::HTTPResponse response;
 		std::istream& istr = session.receiveResponse(response);

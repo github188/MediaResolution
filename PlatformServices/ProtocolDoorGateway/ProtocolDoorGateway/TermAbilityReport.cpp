@@ -37,7 +37,7 @@ int TermAbilityReport::Run(Operator& op, CmdHead& head, char* body)
 	CMarkup xml;
 	StrUtility utility;
 	int nRet = ERR_CENTER_NOT_RES;
-	if (!(AccessModule::Instance().HttpPost(CMD_TERMABILITY, protocol, center_res)
+	if (!(AccessModule::Instance().HttpPost(SERVER_URL_CAP, protocol, center_res)
 		&& xml.SetDoc(center_res) && utility.ForeachXml(xml)
 		&& utility.GetxmlValue("Information/Success", nRet) && nRet == 0))
 	{

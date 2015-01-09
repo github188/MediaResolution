@@ -29,7 +29,7 @@ public:
 	int SendMsg(StreamSocket& act_sock, const char* msg, int msg_len);
 
 	void GetTicket(char * ticket, int length);
-	bool HttpPost(int msg_id, string msg, std::string &res);
+	bool HttpPost(string url, string message, std::string &res);
 
 	Configure config_;
 	TermManager  term_manager_;

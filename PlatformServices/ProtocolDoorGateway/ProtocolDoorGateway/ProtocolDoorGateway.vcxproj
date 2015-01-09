@@ -54,6 +54,9 @@
     <ClInclude Include="UserLogin.h" />
     <ClInclude Include="UserRealTimeRequest.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="config.xml" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{D86F508B-3A70-4B0C-8129-0B8A30ADBC60}</ProjectGuid>
     <RootNamespace>NewAccessServer</RootNamespace>

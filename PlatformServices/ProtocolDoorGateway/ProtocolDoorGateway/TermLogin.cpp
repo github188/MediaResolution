@@ -30,7 +30,7 @@ int TermLogin::Run(Operator& op, CmdHead& head, char* body)
 
 	LogSys& log = LogSys::getLogSys(LogInfo::Instance().ProtocolDoorGateway(), true);
 
-	if (!(AccessModule::Instance().HttpPost(CMD_REGTERM, protocol, center_res)
+	if (!(AccessModule::Instance().HttpPost(SERVER_URL_REG, protocol, center_res)
 		&& xml.SetDoc(center_res) && utility.ForeachXml(xml)
 		&& utility.GetxmlValue("Information/Success", nRet) && nRet == 0))
 	{

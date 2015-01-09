@@ -132,4 +132,9 @@
       <UniqueIdentifier>{1e9a8370-53bb-49d3-800f-46ccf6526773}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="config.xml">
+      <Filter>src</Filter>
+    </None>
+  </ItemGroup>
 </Project>

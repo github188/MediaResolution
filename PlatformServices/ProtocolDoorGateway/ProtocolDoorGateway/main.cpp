@@ -67,9 +67,9 @@ monitor:
 		SocketAcceptor<MsgHander> acceptor_user(user_server_sock, reactor);
 		SocketAcceptor<MsgHander> acceptor_tem(term_server_sock, reactor);
 
-		log.log(Message::PRIO_INFORMATION, "==========================================");
-		log.log(Message::PRIO_INFORMATION, "        start access server success       ");
-		log.log(Message::PRIO_INFORMATION, "==========================================");
+		log.log(Message::PRIO_INFORMATION, "*******************************************************");
+		log.log(Message::PRIO_INFORMATION, "        Start Protocol Door Gateway Server Success       ");
+		log.log(Message::PRIO_INFORMATION, "*******************************************************");
 
 		reactor.run();
 	}

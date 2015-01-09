@@ -1,7 +1,7 @@
 #include "User.h"
 #include "AccessModule.h"
 
-User::User()
+User::User(const std::string& user_name) : user_name_(user_name), is_active_(true)
 {
 
 }
@@ -11,20 +11,15 @@ User::~User()
 
 }
 
-void User::SetDevStatus(bool is_active)
-{
-	is_active_ = is_active;
-}
-
 void User::UpdateTime()
 {
-	Poco::Timestamp now;
+	Poco::LocalDateTime now;
 	update_time_ = now;
 }
 
-bool UserManager::Finduser(const std::string &id, User* &user)
+bool UserManager::FindUser(const std::string &id, User* &user)
 {
-	Poco::ScopedLock<FastMutex> lock(user_lock_);
+	Poco::ScopedLock<FastMutex> lock(user_mutex_);
 	std::multimap<std::string, User*>::iterator iter = users_map_.lower_bound(id);
 	if (iter != users_map_.end())
 	{
@@ -35,9 +30,9 @@ bool UserManager::Finduser(const std::string &id, User* &user)
 	return false;
 }
 
-bool UserManager::Finduser(const std::string &user_name, vector<UserInfo>& users)
+bool UserManager::FindUser(const std::string &user_name, vector<UserInfo>& users)
 {
-	Poco::ScopedLock<FastMutex> lock(user_lock_);
+	Poco::ScopedLock<FastMutex> lock(user_mutex_);
 	std::pair<std::multimap<std::string, User*>::iterator, std::multimap<std::string, User*>::iterator> pair;
 	pair = users_map_.equal_range(user_name);
 
@@ -55,15 +50,66 @@ bool UserManager::Finduser(const std::string &user_name, vector<UserInfo>& users
 	return true;
 }
 
-void UserManager::Adduser(User* user)
+void UserManager::AddUser(const std::string &user_name, const UserInfo& info)
 {
-	Poco::ScopedLock<FastMutex> lock(user_lock_);
-	users_map_.insert(std::make_pair<std::string, User*>(user->id_, user));
+	Poco::ScopedLock<FastMutex> lock(user_mutex_);
+	{
+		std::pair<std::multimap<std::string, User*>::iterator, std::multimap<std::string, User*>::iterator> pair;
+		pair = users_map_.equal_range(user_name);
+
+		if (pair.first == pair.second)
+		{
+			User* pUser = new User(user_name);
+			pUser->user_info_ = info;
+			users_map_.insert(std::make_pair<std::string, User*>(user_name, pUser));
+			return;
+		}
+
+		std::multimap<std::string, User*>::iterator iter;
+		for (iter = pair.first; iter != pair.second; iter++)
+		{
+			User* pUser = iter->second;
+			if (pUser->user_info_ == info)
+			{
+				pUser->user_info_ = info;
+				pUser->UpdateTime();
+				return;
+			}
+		}
+	}
+}
+
+void UserManager::RemoveUser(const std::string &user_name, const UserInfo& info)
+{
+	Poco::ScopedLock<FastMutex> lock(user_mutex_);
+	{
+		std::pair<std::multimap<std::string, User*>::iterator, std::multimap<std::string, User*>::iterator> pair;
+		pair = users_map_.equal_range(user_name);
+
+		if (pair.first == pair.second)
+		{
+			return;
+		}
+
+		std::multimap<std::string, User*>::iterator iter;
+		for (iter = pair.first; iter != pair.second; iter++)
+		{
+			User* pUser = iter->second;
+			if (pUser->user_info_ == info)
+			{
+				users_map_.erase(iter);
+				delete pUser;
+				return;
+			}
+		}
+
+		return;
+	}
 }
 
 bool UserManager::UpdateTime(const std::string& user_name, const UserInfo& info)
 {
-	Poco::ScopedLock<FastMutex> lock(user_lock_);
+	Poco::ScopedLock<FastMutex> lock(user_mutex_);
 	{
 		std::pair<std::multimap<std::string, User*>::iterator, std::multimap<std::string, User*>::iterator> pair;
 		pair = users_map_.equal_range(user_name);
@@ -93,9 +139,11 @@ void UserManager::run()
 	std::multimap<std::string, User*> copy_map;
 	while (true)
 	{
-		user_lock_.lock();
-		copy_map = users_map_;
-		user_lock_.unlock();
+		//copy
+		{
+			Poco::ScopedLock<FastMutex> lock(user_mutex_);
+			copy_map = users_map_;
+		}
 
 		Poco::Timespan tm;
 		for (std::multimap<std::string, User*>::iterator iter = copy_map.begin(); iter != copy_map.end(); ++iter)
@@ -105,14 +153,14 @@ void UserManager::run()
 				continue;
 			}
 
-			Poco::Timestamp now;
+			Poco::LocalDateTime now;
 			tm = now - iter->second->update_time_;
 			if (tm.totalSeconds() < AccessModule::Instance().config_.heart_timeout_)
 			{
 				continue;
 			}
 
-			iter->second->SetDevStatus(false);
+			RemoveUser(iter->first, iter->second->user_info_);
 		}
 		Poco::Thread::sleep(5000);
 	}

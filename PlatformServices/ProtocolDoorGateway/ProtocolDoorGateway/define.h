@@ -28,4 +28,7 @@
 #define CMD_DEVHISTROY_RESP 10015
 #define CMD_DEVRECORDSTREAM 10016
 
+#define SERVER_URL_REG "/videoServer/deviceServerControl/deviceServerReg.do?xml="
+#define SERVER_URL_CAP "/videoServer/deviceChannelControl/deviceChannelCap.do?xml="
+
 #endif

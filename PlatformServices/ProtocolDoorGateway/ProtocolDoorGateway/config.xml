@@ -1,17 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Config>
-  <!--接入调试日志 0:不显示 1:显示-->
-  <DeBugLog Show="1" />
-  <!--路由服务器ip和端口-->
-  <J2ee  Host="25.30.5.161" Port="8080" />
-  <!--本地监听ip、端口-->
-  <Local Host="25.30.5.39"  Client="6001" Disp="6002" J2ee="6003" Store="6004" Terminal="6005" Display="6006"  />
-  <!--网管状态服务器ip和端口-->
-  <Status Host="" Port="" />
-
-  <Msg Host="25.30.5.162" Port="58888"/>
-  <!-- 中心服务器 报警端口 -->
-  <Alarm Host="25.30.5.163" Port="1800"/>
-  <!--超时设置  无心跳超时时间 单位为秒-->
+  <!--Center-->
+  <Center  Host="25.30.9.58" Port="3926" />
+  <!--Local ip、Port-->
+  <Local Host="25.30.9.46"  UserPort="6001" TermPort="6005"  />
+  <!--HeartBeat -->
   <Timeout HeartBeat="360"/>
 </Config>

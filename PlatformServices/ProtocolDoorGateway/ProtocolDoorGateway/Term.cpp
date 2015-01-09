@@ -24,7 +24,7 @@ void Term::SetDevStatus(bool isActive )
 
 void Term::UpdateTime()
 {
-	Poco::Timestamp now;
+	Poco::LocalDateTime now;
 	update_time_ = now;
 }
 
